@@ -1,0 +1,100 @@
+[
+    {
+        "chainName": "Dispatch",
+        "blockchainId": "2D8RG4UpSXbPbvPCAWppNJyqTG2i2CAXSkTgmTBBvs7GKNZjsY",
+        "evmChainId": 779672,
+        "rpcConfig": {
+            "rpcUrl": "https://subnets.avax.network/dispatch/testnet/rpc",
+            "requestBatchSize": 10,
+            "maxConcurrentRequests": 50,
+            "rps": 20,
+            "rpcSupportsDebug": false,
+            "enableBatchSizeGrowth": true,
+            "blocksPerBatch": 100
+        }
+    },
+    {
+        "chainName": "PLYRPHI",
+        "blockchainId": "HUwWdyoExrb1HgVp5X5sh3AWqhYFnKkfXBfGmGL3qjDsnMoR4",
+        "evmChainId": 16180,
+        "rpcConfig": {
+            "rpcUrl": "https://subnets.avax.network/plyr/mainnet/rpc",
+            "requestBatchSize": 20,
+            "maxConcurrentRequests": 100,
+            "rps": 30,
+            "rpcSupportsDebug": false,
+            "enableBatchSizeGrowth": true,
+            "blocksPerBatch": 5000
+        }
+    },
+    {
+        "chainName": "Echo L1 Testnet",
+        "blockchainId": "98qnjenm7MBd8G2cPZoRvZrgJC33JGSAAKghsQ6eojbLCeRNp",
+        "evmChainId": 173750,
+        "rpcConfig": {
+            "rpcUrl": "https://subnets.avax.network/echo/testnet/rpc",
+            "requestBatchSize": 10,
+            "maxConcurrentRequests": 100,
+            "rps": 20,
+            "rpcSupportsDebug": false,
+            "enableBatchSizeGrowth": false,
+            "blocksPerBatch": 1000
+        }
+    },
+    {
+        "chainName": "NUMINEMainnet",
+        "blockchainId": "2c1BN4N9qEhNmW4yCpeLK24SfjFQLyS1Z7FtgRDaYxZWFUUKxf",
+        "evmChainId": 8021,
+        "rpcConfig": {
+            "rpcUrl": "http://idx6.solokhin.com/api/8021/rpc",
+            "requestBatchSize": 20,
+            "maxConcurrentRequests": 300,
+            "rps": 1000,
+            "rpcSupportsDebug": false,
+            "enableBatchSizeGrowth": false,
+            "blocksPerBatch": 1000
+        }
+    },
+    {
+        "chainName": "KOROSHIL",
+        "blockchainId": "26Ee4Lm4R1bQbQLQU66exLiWgSC9qdDPJCvFpzVsd3raLrHBGZ",
+        "evmChainId": 379,
+        "rpcConfig": {
+            "rpcUrl": "http://idx6.solokhin.com/api/379/rpc",
+            "requestBatchSize": 20,
+            "maxConcurrentRequests": 300,
+            "rps": 1000,
+            "rpcSupportsDebug": false,
+            "enableBatchSizeGrowth": false,
+            "blocksPerBatch": 1000
+        }
+    },
+    {
+        "chainName": "GOODCARE",
+        "blockchainId": "2AB5dDcGsw86kroZ81AZXzdez3CgA1x9uXkyQDhxr98hjrkVhu",
+        "evmChainId": 741741,
+        "rpcConfig": {
+            "rpcUrl": "http://idx6.solokhin.com/api/741741/rpc",
+            "requestBatchSize": 20,
+            "maxConcurrentRequests": 300,
+            "rps": 1000,
+            "rpcSupportsDebug": false,
+            "enableBatchSizeGrowth": false,
+            "blocksPerBatch": 1000
+        }
+    },
+    {
+        "chainName": "DOS Chain",
+        "blockchainId": "22v7AG7h6qaVxd4bLvAsSsg2LZ4RCn5iVYgFn7a2Fj1LCuYwjv",
+        "evmChainId": 7979,
+        "rpcConfig": {
+            "rpcUrl": "http://idx6.solokhin.com/api/7979/rpc",
+            "requestBatchSize": 100,
+            "maxConcurrentRequests": 100,
+            "rps": 7693,
+            "rpcSupportsDebug": false,
+            "enableBatchSizeGrowth": true,
+            "blocksPerBatch": 10000
+        }
+    }
+]

@@ -1,0 +1,32 @@
+{
+  "name": "l1beat-indexer",
+  "version": "1.0.0",
+  "description": "High-performance blockchain indexer and analytics dashboard for monitoring Avalanche L1 cross-chain transfers and messaging",
+  "keywords": ["avalanche", "blockchain", "indexer", "analytics", "cross-chain", "teleporter", "ictt", "layerzero"],
+  "license": "MIT",
+  "author": "L1Beat Team",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/l1beat-indexer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/your-username/l1beat-indexer/issues"
+  },
+  "homepage": "https://github.com/your-username/l1beat-indexer#readme",
+  "type": "module",
+  "scripts": {
+    "dev": "node node_modules/frostbyte-sdk/dist/cli.js run -p ./plugins/ -d ./data/",
+    "dev:full": "concurrently \"npm run dev\" \"npm run dev:frontend\"",
+    "dev:frontend": "cd frontend && npm run dev",
+    "install:frontend": "cd frontend && npm install",
+    "build:frontend": "cd frontend && npm run build"
+  },
+  "dependencies": {
+    "frostbyte-sdk": "file:./node_modules/frostbyte-sdk"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.13",
+    "concurrently": "^9.2.0",
+    "typescript": "~5.8.3"
+  }
+}
