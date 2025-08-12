@@ -7,12 +7,12 @@
   "author": "L1Beat Team",
   "repository": {
     "type": "git",
-    "url": "https://github.com/your-username/l1beat-indexer.git"
+    "url": "https://github.com/L1Beat/L1BEAT-INDEXER.git"
   },
   "bugs": {
-    "url": "https://github.com/your-username/l1beat-indexer/issues"
+    "url": "https://github.com/L1Beat/L1BEAT-INDEXER/issues"
   },
-  "homepage": "https://github.com/your-username/l1beat-indexer#readme",
+  "homepage": "https://github.com/L1Beat/L1BEAT-INDEXER#readme",
   "type": "module",
   "scripts": {
     "dev": "node node_modules/frostbyte-sdk/dist/cli.js run -p ./plugins/ -d ./data/",

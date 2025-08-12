@@ -7,8 +7,8 @@ Thank you for your interest in contributing to L1Beat Indexer! We welcome contri
 1. **Fork the repository** on GitHub
 2. **Clone your fork** locally:
    ```bash
-   git clone https://github.com/your-username/l1beat-indexer.git
-   cd l1beat-indexer
+   git clone https://github.com/your-username/L1BEAT-INDEXER.git
+   cd L1BEAT-INDEXER
    ```
 3. **Install dependencies**:
    ```bash
