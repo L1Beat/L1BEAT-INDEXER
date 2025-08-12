@@ -82,19 +82,5 @@
             "enableBatchSizeGrowth": false,
             "blocksPerBatch": 1000
         }
-    },
-    {
-        "chainName": "DOS Chain",
-        "blockchainId": "22v7AG7h6qaVxd4bLvAsSsg2LZ4RCn5iVYgFn7a2Fj1LCuYwjv",
-        "evmChainId": 7979,
-        "rpcConfig": {
-            "rpcUrl": "http://idx6.solokhin.com/api/7979/rpc",
-            "requestBatchSize": 100,
-            "maxConcurrentRequests": 100,
-            "rps": 7693,
-            "rpcSupportsDebug": false,
-            "enableBatchSizeGrowth": true,
-            "blocksPerBatch": 10000
-        }
     }
 ]

@@ -20,6 +20,16 @@ const module: ApiPlugin = {
     requiredIndexers: ['minute_tx_counter'],
 
     registerRoutes: (app, dbCtx) => {
+        // Get available chains from the database context
+        const getAvailableChains = () => {
+            const configs = dbCtx.getAllChainConfigs();
+            return {
+                chainIds: configs.map(config => config.evmChainId.toString()),
+                chainOptionsWithNames: configs.map(config => `${config.evmChainId} (${config.chainName})`)
+            };
+        };
+
+        const { chainOptionsWithNames } = getAvailableChains();
         app.get<{
             Params: { evmChainId: string };
             Querystring: { count?: number }
@@ -28,9 +38,14 @@ const module: ApiPlugin = {
                 params: {
                     type: 'object',
                     properties: {
-                        evmChainId: { type: 'string' }
+                        evmChainId: { 
+                            type: 'string',
+                            description: 'Select chain from the dropdown. The API will use the chain ID (numbers before parentheses)',
+                            enum: chainOptionsWithNames
+                        }
                     },
-                    required: ['evmChainId']
+                    required: ['evmChainId'],
+                    additionalProperties: false
                 },
                 querystring: {
                     type: 'object',
@@ -61,7 +76,10 @@ const module: ApiPlugin = {
                 }
             }
         }, async (request, reply) => {
-            const evmChainId = parseInt(request.params.evmChainId);
+            const rawChainId = request.params.evmChainId;
+            // Extract chain ID from format "123456 (ChainName)" -> "123456"
+            const chainIdStr = rawChainId.includes('(') ? rawChainId.split(' (')[0] : rawChainId;
+            const evmChainId = parseInt(chainIdStr);
             const count = request.query.count || 30;
 
             // Validate chain exists
@@ -113,9 +131,14 @@ const module: ApiPlugin = {
                 params: {
                     type: 'object',
                     properties: {
-                        evmChainId: { type: 'string' }
+                        evmChainId: { 
+                            type: 'string',
+                            description: 'Select chain from the dropdown. The API will use the chain ID (numbers before parentheses)',
+                            enum: chainOptionsWithNames
+                        }
                     },
-                    required: ['evmChainId']
+                    required: ['evmChainId'],
+                    additionalProperties: false
                 },
                 querystring: {
                     type: 'object',
@@ -142,7 +165,10 @@ const module: ApiPlugin = {
                 }
             }
         }, async (request, reply) => {
-            const evmChainId = parseInt(request.params.evmChainId);
+            const rawChainId = request.params.evmChainId;
+            // Extract chain ID from format "123456 (ChainName)" -> "123456"
+            const chainIdStr = rawChainId.includes('(') ? rawChainId.split(' (')[0] : rawChainId;
+            const evmChainId = parseInt(chainIdStr);
             const queryTimestamp = request.query.timestamp;
 
             // Validate chain exists

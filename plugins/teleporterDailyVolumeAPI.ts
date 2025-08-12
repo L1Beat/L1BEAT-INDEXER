@@ -19,6 +19,15 @@ const module: ApiPlugin = {
     requiredIndexers: ["teleporter_messages"],
 
     registerRoutes: (app, dbCtx) => {
+        // Get available chains from the database context
+        const getAvailableChains = () => {
+            const configs = dbCtx.getAllChainConfigs();
+            return {
+                chainOptionsWithNames: configs.map(config => `${config.evmChainId} (${config.chainName})`)
+            };
+        };
+
+        const { chainOptionsWithNames } = getAvailableChains();
         app.get('/api/global/metrics/dailyMessageVolume', {
             schema: {
                 querystring: {
@@ -137,9 +146,14 @@ const module: ApiPlugin = {
                 params: {
                     type: 'object',
                     properties: {
-                        evmChainId: { type: 'string' }
+                        evmChainId: { 
+                            type: 'string',
+                            description: 'Select chain from the dropdown. The API will use the chain ID (numbers before parentheses)',
+                            enum: chainOptionsWithNames
+                        }
                     },
-                    required: ['evmChainId']
+                    required: ['evmChainId'],
+                    additionalProperties: false
                 },
                 querystring: {
                     type: 'object',
@@ -176,7 +190,10 @@ const module: ApiPlugin = {
                 }
             }
         }, async (request, reply) => {
-            const evmChainId = parseInt(request.params.evmChainId);
+            const rawChainId = request.params.evmChainId;
+            // Extract chain ID from format "123456 (ChainName)" -> "123456"
+            const chainIdStr = rawChainId.includes('(') ? rawChainId.split(' (')[0] : rawChainId;
+            const evmChainId = parseInt(chainIdStr);
             const { days = 7 } = request.query;
 
             // Validate chain exists
