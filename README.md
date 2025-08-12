@@ -63,7 +63,7 @@ This starts both backend and frontend services concurrently.
 ## APIs
 
 - Backend API: http://localhost:3080/api/
-- API Documentation: http://localhost:3080/api/docs
+- API Documentation: http://localhost:5173/api/docs
 - Frontend: http://localhost:5173/
 
 ## Development
