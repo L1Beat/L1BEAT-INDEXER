@@ -71,3 +71,19 @@ This starts both backend and frontend services concurrently.
 - Backend changes: Restart with `npm run dev`
 - Frontend changes: Hot reload automatically
 - API changes: Update client with `npm run openapi` (from frontend directory)
+
+## Contributors
+
+This project is primarily built on the work of:
+
+- [@containerman17](https://github.com/containerman17) - **FrostByte SDK Creator**
+  - Developed the FrostByte SDK that powers this indexer
+  - Created the core indexing infrastructure and codebase
+  - Created the plugin architecture and blockchain indexing framework
+  - Architected the high-performance data processing pipeline
+
+Special thanks for the foundational work that made this indexer application possible.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
