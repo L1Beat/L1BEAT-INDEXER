@@ -4,8 +4,8 @@ services:
     restart: on-failure:10
     image: ghcr.io/containerman17/frostbyte:latest
     volumes:
-      - ~/plugins:/plugins
-      - ~/data:/data
+      - ./plugins:/plugins
+      - ./data:/data
     environment:
       - ROLES=fetcher
     logging:
@@ -18,9 +18,9 @@ services:
     restart: on-failure:10
     image: ghcr.io/containerman17/frostbyte:latest
     volumes:
-      - ~/plugins:/plugins
-      - ~/data:/data
-      - ~/assets:/assets
+      - ./plugins:/plugins
+      - ./data:/data
+      - ./frontend/dist:/assets
     environment:
       - PORT=80
       - ROLES=api
@@ -37,8 +37,8 @@ services:
     restart: on-failure:10
     image: ghcr.io/containerman17/frostbyte:latest
     volumes:
-      - ~/plugins:/plugins
-      - ~/data:/data
+      - ./plugins:/plugins
+      - ./data:/data
     environment:
       - ROLES=indexer
     logging:
@@ -51,8 +51,8 @@ services:
     ports:
       - "443:443"
     volumes:
-      - /home/selim/certs/cloudflare-origin.pem:/etc/nginx/certs/cloudflare-origin.pem:ro
-      - /home/selim/certs/cloudflare-origin.key:/etc/nginx/certs/cloudflare-origin.key:ro
-      - /home/selim/certs/nginx.conf:/etc/nginx/nginx.conf:ro
+      - ~/certs/cloudflare-origin.pem:/etc/nginx/certs/cloudflare-origin.pem:ro
+      - ~/certs/cloudflare-origin.key:/etc/nginx/certs/cloudflare-origin.key:ro
+      - ~/certs/nginx.conf:/etc/nginx/nginx.conf:ro
     depends_on:
       - api
