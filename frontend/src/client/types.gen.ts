@@ -98,6 +98,252 @@ export type GetApiReplicationChainsJsonResponses = {
 
 export type GetApiReplicationChainsJsonResponse = GetApiReplicationChainsJsonResponses[keyof GetApiReplicationChainsJsonResponses];
 
+export type GetApiByEvmChainIdStatsActiveAddressesPeriodData = {
+    body?: never;
+    path: {
+        /**
+         * EVM Chain ID. Available chains: 779672 (Dispatch), 16180 (PLYRPHI), 173750 (Echo L1 Testnet), 8021 (NUMINEMainnet), 379 (KOROSHIL), 741741 (GOODCARE)
+         */
+        evmChainId: '779672' | '16180' | '173750' | '8021' | '379' | '741741';
+    };
+    query: {
+        /**
+         * Start of period (Unix timestamp)
+         */
+        startTimestamp: number;
+        /**
+         * End of period (Unix timestamp)
+         */
+        endTimestamp: number;
+    };
+    url: '/api/{evmChainId}/stats/active-addresses-period';
+};
+
+export type GetApiByEvmChainIdStatsActiveAddressesPeriodErrors = {
+    /**
+     * Default Response
+     */
+    404: {
+        error?: string;
+    };
+};
+
+export type GetApiByEvmChainIdStatsActiveAddressesPeriodError = GetApiByEvmChainIdStatsActiveAddressesPeriodErrors[keyof GetApiByEvmChainIdStatsActiveAddressesPeriodErrors];
+
+export type GetApiByEvmChainIdStatsActiveAddressesPeriodResponses = {
+    /**
+     * Default Response
+     */
+    200: {
+        /**
+         * Total unique addresses that were active during the period
+         */
+        totalActiveAddresses: number;
+        /**
+         * Average number of active addresses per day
+         */
+        avgDailyActiveAddresses: number;
+        /**
+         * Total transactions during the period
+         */
+        totalTransactions: number;
+    };
+};
+
+export type GetApiByEvmChainIdStatsActiveAddressesPeriodResponse = GetApiByEvmChainIdStatsActiveAddressesPeriodResponses[keyof GetApiByEvmChainIdStatsActiveAddressesPeriodResponses];
+
+export type GetApiByEvmChainIdStatsDailyActiveAddressesData = {
+    body?: never;
+    path: {
+        /**
+         * EVM Chain ID. Available chains: 779672 (Dispatch), 16180 (PLYRPHI), 173750 (Echo L1 Testnet), 8021 (NUMINEMainnet), 379 (KOROSHIL), 741741 (GOODCARE)
+         */
+        evmChainId: '779672' | '16180' | '173750' | '8021' | '379' | '741741';
+    };
+    query?: {
+        /**
+         * Number of days to retrieve (default: 30)
+         */
+        days?: number;
+    };
+    url: '/api/{evmChainId}/stats/daily-active-addresses';
+};
+
+export type GetApiByEvmChainIdStatsDailyActiveAddressesErrors = {
+    /**
+     * Default Response
+     */
+    404: {
+        error?: string;
+    };
+};
+
+export type GetApiByEvmChainIdStatsDailyActiveAddressesError = GetApiByEvmChainIdStatsDailyActiveAddressesErrors[keyof GetApiByEvmChainIdStatsDailyActiveAddressesErrors];
+
+export type GetApiByEvmChainIdStatsDailyActiveAddressesResponses = {
+    /**
+     * Default Response
+     */
+    200: Array<{
+        /**
+         * Day timestamp (Unix timestamp at midnight UTC)
+         */
+        timestamp: number;
+        /**
+         * Number of unique active addresses on this day
+         */
+        activeAddresses: number;
+        /**
+         * Total transactions on this day
+         */
+        transactions: number;
+    }>;
+};
+
+export type GetApiByEvmChainIdStatsDailyActiveAddressesResponse = GetApiByEvmChainIdStatsDailyActiveAddressesResponses[keyof GetApiByEvmChainIdStatsDailyActiveAddressesResponses];
+
+export type GetApiByEvmChainIdStatsGasUsagePeriodData = {
+    body?: never;
+    path: {
+        /**
+         * EVM Chain ID. Available chains: 779672 (Dispatch), 16180 (PLYRPHI), 173750 (Echo L1 Testnet), 8021 (NUMINEMainnet), 379 (KOROSHIL), 741741 (GOODCARE)
+         */
+        evmChainId: '779672' | '16180' | '173750' | '8021' | '379' | '741741';
+    };
+    query: {
+        /**
+         * Start of period (Unix timestamp)
+         */
+        startTimestamp: number;
+        /**
+         * End of period (Unix timestamp)
+         */
+        endTimestamp: number;
+    };
+    url: '/api/{evmChainId}/stats/gas-usage-period';
+};
+
+export type GetApiByEvmChainIdStatsGasUsagePeriodErrors = {
+    /**
+     * Default Response
+     */
+    404: {
+        error?: string;
+    };
+};
+
+export type GetApiByEvmChainIdStatsGasUsagePeriodError = GetApiByEvmChainIdStatsGasUsagePeriodErrors[keyof GetApiByEvmChainIdStatsGasUsagePeriodErrors];
+
+export type GetApiByEvmChainIdStatsGasUsagePeriodResponses = {
+    /**
+     * Default Response
+     */
+    200: {
+        /**
+         * Total gas consumed during the period
+         */
+        totalGasUsed: number;
+        /**
+         * Average gas consumption per day
+         */
+        avgDailyGasUsed: number;
+    };
+};
+
+export type GetApiByEvmChainIdStatsGasUsagePeriodResponse = GetApiByEvmChainIdStatsGasUsagePeriodResponses[keyof GetApiByEvmChainIdStatsGasUsagePeriodResponses];
+
+export type GetApiByEvmChainIdStatsCumulativeGasData = {
+    body?: never;
+    path: {
+        /**
+         * EVM Chain ID. Available chains: 779672 (Dispatch), 16180 (PLYRPHI), 173750 (Echo L1 Testnet), 8021 (NUMINEMainnet), 379 (KOROSHIL), 741741 (GOODCARE)
+         */
+        evmChainId: '779672' | '16180' | '173750' | '8021' | '379' | '741741';
+    };
+    query?: {
+        /**
+         * Unix timestamp to get cumulative gas at. If not provided, returns latest.
+         */
+        timestamp?: number;
+    };
+    url: '/api/{evmChainId}/stats/cumulative-gas';
+};
+
+export type GetApiByEvmChainIdStatsCumulativeGasErrors = {
+    /**
+     * Default Response
+     */
+    404: {
+        error?: string;
+    };
+};
+
+export type GetApiByEvmChainIdStatsCumulativeGasError = GetApiByEvmChainIdStatsCumulativeGasErrors[keyof GetApiByEvmChainIdStatsCumulativeGasErrors];
+
+export type GetApiByEvmChainIdStatsCumulativeGasResponses = {
+    /**
+     * Default Response
+     */
+    200: {
+        /**
+         * Timestamp of the data point
+         */
+        timestamp: number;
+        /**
+         * Total cumulative gas used up to this timestamp
+         */
+        cumulativeGasUsed: number;
+    };
+};
+
+export type GetApiByEvmChainIdStatsCumulativeGasResponse = GetApiByEvmChainIdStatsCumulativeGasResponses[keyof GetApiByEvmChainIdStatsCumulativeGasResponses];
+
+export type GetApiByEvmChainIdStatsDailyGasData = {
+    body?: never;
+    path: {
+        /**
+         * EVM Chain ID. Available chains: 779672 (Dispatch), 16180 (PLYRPHI), 173750 (Echo L1 Testnet), 8021 (NUMINEMainnet), 379 (KOROSHIL), 741741 (GOODCARE)
+         */
+        evmChainId: '779672' | '16180' | '173750' | '8021' | '379' | '741741';
+    };
+    query?: {
+        /**
+         * Number of days to retrieve (default: 30)
+         */
+        days?: number;
+    };
+    url: '/api/{evmChainId}/stats/daily-gas';
+};
+
+export type GetApiByEvmChainIdStatsDailyGasErrors = {
+    /**
+     * Default Response
+     */
+    404: {
+        error?: string;
+    };
+};
+
+export type GetApiByEvmChainIdStatsDailyGasError = GetApiByEvmChainIdStatsDailyGasErrors[keyof GetApiByEvmChainIdStatsDailyGasErrors];
+
+export type GetApiByEvmChainIdStatsDailyGasResponses = {
+    /**
+     * Default Response
+     */
+    200: Array<{
+        /**
+         * Day timestamp (Unix timestamp)
+         */
+        timestamp: number;
+        /**
+         * Total gas used on this day
+         */
+        gasUsed: number;
+    }>;
+};
+
+export type GetApiByEvmChainIdStatsDailyGasResponse = GetApiByEvmChainIdStatsDailyGasResponses[keyof GetApiByEvmChainIdStatsDailyGasResponses];
+
 export type GetApiGlobalIcmGasUsageData = {
     body?: never;
     path?: never;
@@ -225,10 +471,378 @@ export type GetApiGlobalIcttTvlResponses = {
 
 export type GetApiGlobalIcttTvlResponse = GetApiGlobalIcttTvlResponses[keyof GetApiGlobalIcttTvlResponses];
 
+export type GetApiByEvmChainIdBlocksLatestData = {
+    body?: never;
+    path: {
+        /**
+         * Select chain from the dropdown. The API will use the chain ID (numbers before parentheses)
+         */
+        evmChainId: '779672 (Dispatch)' | '16180 (PLYRPHI)' | '173750 (Echo L1 Testnet)' | '8021 (NUMINEMainnet)' | '379 (KOROSHIL)' | '741741 (GOODCARE)';
+    };
+    query?: {
+        /**
+         * Include detailed transaction data in response
+         */
+        includeTransactionDetails?: boolean;
+        /**
+         * Include block analysis metadata (timing, address counts, etc.)
+         */
+        includeBlockMetadata?: boolean;
+        /**
+         * Include gas usage analysis and transaction receipts
+         */
+        includeGasAnalysis?: boolean;
+    };
+    url: '/api/{evmChainId}/blocks/latest';
+};
+
+export type GetApiByEvmChainIdBlocksLatestErrors = {
+    /**
+     * Chain not found or latest block not available
+     */
+    404: {
+        error?: string;
+        chainId?: number;
+    };
+    /**
+     * Internal server error
+     */
+    500: {
+        error?: string;
+        message?: string;
+    };
+};
+
+export type GetApiByEvmChainIdBlocksLatestError = GetApiByEvmChainIdBlocksLatestErrors[keyof GetApiByEvmChainIdBlocksLatestErrors];
+
+export type GetApiByEvmChainIdBlocksLatestResponses = {
+    /**
+     * Latest block data with transactions and metadata
+     */
+    200: {
+        chainInfo?: {
+            /**
+             * EVM Chain ID
+             */
+            chainId?: number;
+            /**
+             * Human readable chain name
+             */
+            chainName?: string;
+            /**
+             * Avalanche blockchain ID
+             */
+            blockchainId?: string;
+            /**
+             * RPC endpoint URL
+             */
+            rpcUrl?: string;
+        };
+        syncStatus?: {
+            /**
+             * Latest block indexed by this service
+             */
+            indexedBlockNumber?: number;
+            /**
+             * Latest block on the blockchain
+             */
+            blockchainLatestNumber?: number;
+            /**
+             * Number of blocks behind blockchain
+             */
+            syncLag?: number;
+            /**
+             * Whether indexer is caught up
+             */
+            isFullySynced?: boolean;
+        };
+        block?: {
+            /**
+             * Block number
+             */
+            number?: number;
+            /**
+             * Block hash
+             */
+            hash?: string;
+            /**
+             * Parent block hash
+             */
+            parentHash?: string;
+            /**
+             * Block timestamp (Unix seconds)
+             */
+            timestamp?: number;
+            /**
+             * Block timestamp in ISO format
+             */
+            timestampISO?: string;
+            /**
+             * Block gas limit (hex)
+             */
+            gasLimit?: string;
+            /**
+             * Gas used by all transactions (hex)
+             */
+            gasUsed?: string;
+            /**
+             * Gas utilization percentage
+             */
+            gasUtilization?: string;
+            /**
+             * Block size in bytes (hex)
+             */
+            size?: string;
+            /**
+             * Number of transactions in block
+             */
+            transactionCount?: number;
+            /**
+             * Block producer/validator address
+             */
+            miner?: string;
+            /**
+             * Block difficulty (hex)
+             */
+            difficulty?: string;
+            /**
+             * Total chain difficulty (hex)
+             */
+            totalDifficulty?: string;
+            /**
+             * EIP-1559 base fee (hex)
+             */
+            baseFeePerGas?: string;
+        };
+        /**
+         * Array of transaction objects (when includeTransactionDetails=true)
+         */
+        transactions?: Array<{
+            /**
+             * Transaction hash
+             */
+            hash?: string;
+            /**
+             * Sender address
+             */
+            from?: string;
+            /**
+             * Recipient address (null for contract creation)
+             */
+            to?: string;
+            /**
+             * Value transferred in wei (hex)
+             */
+            value?: string;
+            /**
+             * Value in ETH/AVAX (decimal)
+             */
+            valueEth?: string;
+            /**
+             * Gas limit (hex)
+             */
+            gas?: string;
+            /**
+             * Gas price (hex)
+             */
+            gasPrice?: string;
+            /**
+             * Transaction input data
+             */
+            input?: string;
+            /**
+             * Sender nonce (hex)
+             */
+            nonce?: string;
+            /**
+             * Transaction type (0x0=legacy, 0x2=EIP-1559)
+             */
+            type?: string;
+            /**
+             * Whether this creates a contract
+             */
+            isContractCreation?: boolean;
+            /**
+             * Whether this transfers value
+             */
+            isValueTransfer?: boolean;
+            /**
+             * Whether transaction includes data
+             */
+            hasData?: boolean;
+        }>;
+        /**
+         * Block analysis metadata (when includeBlockMetadata=true)
+         */
+        metadata?: {
+            /**
+             * Seconds since previous block
+             */
+            blockTime?: number;
+            /**
+             * Average transaction value in ETH/AVAX
+             */
+            averageTransactionValue?: number;
+            uniqueAddresses?: {
+                /**
+                 * Number of unique sender addresses
+                 */
+                senders?: number;
+                /**
+                 * Number of unique recipient addresses
+                 */
+                recipients?: number;
+            };
+            transactionTypes?: {
+                /**
+                 * Number of legacy transactions
+                 */
+                legacy?: number;
+                /**
+                 * Number of EIP-1559 transactions
+                 */
+                eip1559?: number;
+                /**
+                 * Number of other transaction types
+                 */
+                other?: number;
+            };
+        };
+        /**
+         * Gas usage analysis (when includeGasAnalysis=true)
+         */
+        gasAnalysis?: {
+            /**
+             * Total gas used by all transactions
+             */
+            totalGasUsed?: number;
+            /**
+             * Average gas per transaction
+             */
+            averageGasPerTransaction?: number;
+            /**
+             * Gas efficiency percentage
+             */
+            gasEfficiency?: string;
+            /**
+             * Number of successful transactions
+             */
+            successfulTransactions?: number;
+            /**
+             * Number of failed transactions
+             */
+            failedTransactions?: number;
+        };
+    };
+};
+
+export type GetApiByEvmChainIdBlocksLatestResponse = GetApiByEvmChainIdBlocksLatestResponses[keyof GetApiByEvmChainIdBlocksLatestResponses];
+
+export type GetApiByEvmChainIdBlocksLatestByCountData = {
+    body?: never;
+    path: {
+        /**
+         * Select chain from the dropdown. The API will use the chain ID (numbers before parentheses)
+         */
+        evmChainId: '779672 (Dispatch)' | '16180 (PLYRPHI)' | '173750 (Echo L1 Testnet)' | '8021 (NUMINEMainnet)' | '379 (KOROSHIL)' | '741741 (GOODCARE)';
+        /**
+         * Number of latest blocks to retrieve (1-10)
+         */
+        count: number;
+    };
+    query?: never;
+    url: '/api/{evmChainId}/blocks/latest/{count}';
+};
+
+export type GetApiByEvmChainIdBlocksLatestByCountErrors = {
+    /**
+     * Chain not found
+     */
+    404: {
+        error?: string;
+        chainId?: number;
+    };
+    /**
+     * Internal server error
+     */
+    500: {
+        error?: string;
+        message?: string;
+    };
+};
+
+export type GetApiByEvmChainIdBlocksLatestByCountError = GetApiByEvmChainIdBlocksLatestByCountErrors[keyof GetApiByEvmChainIdBlocksLatestByCountErrors];
+
+export type GetApiByEvmChainIdBlocksLatestByCountResponses = {
+    /**
+     * Summary data for the latest N blocks
+     */
+    200: {
+        /**
+         * EVM Chain ID
+         */
+        chainId?: number;
+        /**
+         * Most recent block number indexed
+         */
+        latestBlockNumber?: number;
+        /**
+         * Array of block summaries (ordered newest to oldest)
+         */
+        blocks?: Array<{
+            /**
+             * Block number
+             */
+            number?: number;
+            /**
+             * Block hash
+             */
+            hash?: string;
+            /**
+             * Block timestamp (Unix seconds)
+             */
+            timestamp?: number;
+            /**
+             * Block timestamp in ISO format
+             */
+            timestampISO?: string;
+            /**
+             * Number of transactions in block
+             */
+            transactionCount?: number;
+            /**
+             * Gas used by all transactions (hex)
+             */
+            gasUsed?: string;
+            /**
+             * Block gas limit (hex)
+             */
+            gasLimit?: string;
+            /**
+             * Gas utilization percentage
+             */
+            gasUtilization?: string;
+            /**
+             * Block producer/validator address
+             */
+            miner?: string;
+            /**
+             * Block size in bytes (hex)
+             */
+            size?: string;
+        }>;
+    };
+};
+
+export type GetApiByEvmChainIdBlocksLatestByCountResponse = GetApiByEvmChainIdBlocksLatestByCountResponses[keyof GetApiByEvmChainIdBlocksLatestByCountResponses];
+
 export type GetApiGlobalMessagingComparisonData = {
     body?: never;
     path?: never;
     query?: {
+        /**
+         * Number of 30-day time windows to analyze (default: 12)
+         */
         count?: number;
     };
     url: '/api/global/messaging/comparison';
@@ -239,13 +853,34 @@ export type GetApiGlobalMessagingComparisonResponses = {
      * Default Response
      */
     200: Array<{
+        /**
+         * EVM chain ID
+         */
         chainId: number;
+        /**
+         * Human-readable chain name
+         */
         chainName: string;
+        /**
+         * Avalanche blockchain ID
+         */
         blockchainId: string;
         data: Array<{
+            /**
+             * Window start timestamp (Unix)
+             */
             fromTs: number;
+            /**
+             * Window end timestamp (Unix)
+             */
             toTs: number;
+            /**
+             * LayerZero message count in window
+             */
             layerzero: number;
+            /**
+             * ICM/Teleporter message count in window
+             */
             icm: number;
         }>;
     }>;
@@ -253,10 +888,135 @@ export type GetApiGlobalMessagingComparisonResponses = {
 
 export type GetApiGlobalMessagingComparisonResponse = GetApiGlobalMessagingComparisonResponses[keyof GetApiGlobalMessagingComparisonResponses];
 
+export type GetApiGlobalMessagingComparisonDetailedData = {
+    body?: never;
+    path?: never;
+    query?: {
+        /**
+         * Start timestamp for analysis period (Unix, default: 90 days ago)
+         */
+        startTs?: number;
+        /**
+         * End timestamp for analysis period (Unix, default: now)
+         */
+        endTs?: number;
+    };
+    url: '/api/global/messaging/comparison/detailed';
+};
+
+export type GetApiGlobalMessagingComparisonDetailedResponses = {
+    /**
+     * Default Response
+     */
+    200: Array<{
+        /**
+         * EVM chain ID
+         */
+        chainId: number;
+        /**
+         * Human-readable chain name
+         */
+        chainName: string;
+        /**
+         * Avalanche blockchain ID
+         */
+        blockchainId: string;
+        /**
+         * Total LayerZero messages in period
+         */
+        layerzeroTotal: number;
+        /**
+         * Total ICM/Teleporter messages in period
+         */
+        icmTotal: number;
+        chainPairs: Array<{
+            /**
+             * Connected chain ID (blockchain ID for ICM, endpoint ID for LayerZero)
+             */
+            otherChainId: string;
+            /**
+             * Cross-chain protocol used
+             */
+            protocol: 'icm' | 'layerzero';
+            /**
+             * Messages received from other chain
+             */
+            inbound: number;
+            /**
+             * Messages sent to other chain
+             */
+            outbound: number;
+            /**
+             * Total bidirectional message count
+             */
+            total: number;
+        }>;
+    }>;
+};
+
+export type GetApiGlobalMessagingComparisonDetailedResponse = GetApiGlobalMessagingComparisonDetailedResponses[keyof GetApiGlobalMessagingComparisonDetailedResponses];
+
+export type GetApiGlobalMessagingChainPairsData = {
+    body?: never;
+    path?: never;
+    query?: {
+        /**
+         * Number of days to analyze (default: 30)
+         */
+        days?: number;
+    };
+    url: '/api/global/messaging/chain-pairs';
+};
+
+export type GetApiGlobalMessagingChainPairsResponses = {
+    /**
+     * Default Response
+     */
+    200: Array<{
+        /**
+         * Source chain EVM ID
+         */
+        sourceChainId: number;
+        /**
+         * Source chain name
+         */
+        sourceChainName: string;
+        /**
+         * Source chain Avalanche blockchain ID
+         */
+        sourceBlockchainId: string;
+        /**
+         * Connected chain ID (format depends on protocol)
+         */
+        otherChainId: string;
+        /**
+         * Cross-chain messaging protocol
+         */
+        protocol: 'icm' | 'layerzero';
+        /**
+         * Messages received from other chain
+         */
+        inbound: number;
+        /**
+         * Messages sent to other chain
+         */
+        outbound: number;
+        /**
+         * Total bidirectional message count
+         */
+        total: number;
+    }>;
+};
+
+export type GetApiGlobalMessagingChainPairsResponse = GetApiGlobalMessagingChainPairsResponses[keyof GetApiGlobalMessagingChainPairsResponses];
+
 export type GetApiByEvmChainIdStatsTpsData = {
     body?: never;
     path: {
-        evmChainId: string;
+        /**
+         * Select chain from the dropdown. The API will use the chain ID (numbers before parentheses)
+         */
+        evmChainId: '779672 (Dispatch)' | '16180 (PLYRPHI)' | '173750 (Echo L1 Testnet)' | '8021 (NUMINEMainnet)' | '379 (KOROSHIL)' | '741741 (GOODCARE)';
     };
     query?: {
         count?: number;
@@ -291,7 +1051,10 @@ export type GetApiByEvmChainIdStatsTpsResponse = GetApiByEvmChainIdStatsTpsRespo
 export type GetApiByEvmChainIdStatsCumulativeTxsData = {
     body?: never;
     path: {
-        evmChainId: string;
+        /**
+         * Select chain from the dropdown. The API will use the chain ID (numbers before parentheses)
+         */
+        evmChainId: '779672 (Dispatch)' | '16180 (PLYRPHI)' | '173750 (Echo L1 Testnet)' | '8021 (NUMINEMainnet)' | '379 (KOROSHIL)' | '741741 (GOODCARE)';
     };
     query?: {
         /**
@@ -350,7 +1113,10 @@ export type GetApiGlobalMetricsDailyMessageVolumeResponse = GetApiGlobalMetricsD
 export type GetApiByEvmChainIdMetricsDailyMessageVolumeData = {
     body?: never;
     path: {
-        evmChainId: string;
+        /**
+         * Select chain from the dropdown. The API will use the chain ID (numbers before parentheses)
+         */
+        evmChainId: '779672 (Dispatch)' | '16180 (PLYRPHI)' | '173750 (Echo L1 Testnet)' | '8021 (NUMINEMainnet)' | '379 (KOROSHIL)' | '741741 (GOODCARE)';
     };
     query?: {
         days?: number;
@@ -427,6 +1193,60 @@ export type GetApiGlobalLeaderboardWeekResponses = {
 };
 
 export type GetApiGlobalLeaderboardWeekResponse = GetApiGlobalLeaderboardWeekResponses[keyof GetApiGlobalLeaderboardWeekResponses];
+
+export type GetApiByEvmChainIdStatsIcmMessagesTotalData = {
+    body?: never;
+    path: {
+        /**
+         * EVM Chain ID. Available chains: 779672 (Dispatch), 16180 (PLYRPHI), 173750 (Echo L1 Testnet), 8021 (NUMINEMainnet), 379 (KOROSHIL), 741741 (GOODCARE)
+         */
+        evmChainId: '779672' | '16180' | '173750' | '8021' | '379' | '741741';
+    };
+    query?: {
+        /**
+         * Unix timestamp to get cumulative messages at. If not provided, returns latest.
+         */
+        timestamp?: number;
+    };
+    url: '/api/{evmChainId}/stats/icm-messages-total';
+};
+
+export type GetApiByEvmChainIdStatsIcmMessagesTotalErrors = {
+    /**
+     * Default Response
+     */
+    404: {
+        error?: string;
+    };
+};
+
+export type GetApiByEvmChainIdStatsIcmMessagesTotalError = GetApiByEvmChainIdStatsIcmMessagesTotalErrors[keyof GetApiByEvmChainIdStatsIcmMessagesTotalErrors];
+
+export type GetApiByEvmChainIdStatsIcmMessagesTotalResponses = {
+    /**
+     * Default Response
+     */
+    200: {
+        /**
+         * The timestamp for which the counts are valid
+         */
+        timestamp: number;
+        /**
+         * Total number of ICM messages (incoming + outgoing) up to timestamp
+         */
+        totalMessages: number;
+        /**
+         * Total number of outgoing ICM messages up to timestamp
+         */
+        totalOutgoing: number;
+        /**
+         * Total number of incoming ICM messages up to timestamp
+         */
+        totalIncoming: number;
+    };
+};
+
+export type GetApiByEvmChainIdStatsIcmMessagesTotalResponse = GetApiByEvmChainIdStatsIcmMessagesTotalResponses[keyof GetApiByEvmChainIdStatsIcmMessagesTotalResponses];
 
 export type GetApiGlobalStatsTpsData = {
     body?: never;

@@ -25,11 +25,11 @@ const module: ApiPlugin = {
             const configs = dbCtx.getAllChainConfigs();
             return {
                 chainIds: configs.map(config => config.evmChainId.toString()),
-                chainOptionsWithNames: configs.map(config => `${config.evmChainId} (${config.chainName})`)
+                chainDescriptions: configs.map((config: any) => `${config.evmChainId} - ${config.chainName}`).join(', ')
             };
         };
 
-        const { chainOptionsWithNames } = getAvailableChains();
+        const { chainIds, chainDescriptions } = getAvailableChains();
         app.get<{
             Params: { evmChainId: string };
             Querystring: { count?: number }
@@ -40,8 +40,8 @@ const module: ApiPlugin = {
                     properties: {
                         evmChainId: { 
                             type: 'string',
-                            description: 'Select chain from the dropdown. The API will use the chain ID (numbers before parentheses)',
-                            enum: chainOptionsWithNames
+                            enum: chainIds,
+                            description: `EVM Chain ID. Available chains: ${chainDescriptions}`
                         }
                     },
                     required: ['evmChainId'],
@@ -76,10 +76,12 @@ const module: ApiPlugin = {
                 }
             }
         }, async (request, reply) => {
-            const rawChainId = request.params.evmChainId;
-            // Extract chain ID from format "123456 (ChainName)" -> "123456"
-            const chainIdStr = rawChainId.includes('(') ? rawChainId.split(' (')[0] : rawChainId;
-            const evmChainId = parseInt(chainIdStr);
+            // Parse chain ID directly (now expects clean chain ID like "16180")
+            const evmChainIdStr = request.params.evmChainId;
+            const evmChainId = parseInt(evmChainIdStr);
+            if (isNaN(evmChainId)) {
+                return reply.code(400).send({ error: 'Invalid chain ID format' });
+            }
             const count = request.query.count || 30;
 
             // Validate chain exists
@@ -133,8 +135,8 @@ const module: ApiPlugin = {
                     properties: {
                         evmChainId: { 
                             type: 'string',
-                            description: 'Select chain from the dropdown. The API will use the chain ID (numbers before parentheses)',
-                            enum: chainOptionsWithNames
+                            enum: chainIds,
+                            description: `EVM Chain ID. Available chains: ${chainDescriptions}`
                         }
                     },
                     required: ['evmChainId'],
@@ -165,10 +167,12 @@ const module: ApiPlugin = {
                 }
             }
         }, async (request, reply) => {
-            const rawChainId = request.params.evmChainId;
-            // Extract chain ID from format "123456 (ChainName)" -> "123456"
-            const chainIdStr = rawChainId.includes('(') ? rawChainId.split(' (')[0] : rawChainId;
-            const evmChainId = parseInt(chainIdStr);
+            // Parse chain ID directly (now expects clean chain ID like "16180")
+            const evmChainIdStr = request.params.evmChainId;
+            const evmChainId = parseInt(evmChainIdStr);
+            if (isNaN(evmChainId)) {
+                return reply.code(400).send({ error: 'Invalid chain ID format' });
+            }
             const queryTimestamp = request.query.timestamp;
 
             // Validate chain exists
