@@ -26,7 +26,12 @@ data/*
 !data/chains.json
 prod_chains.json
 secretChains.json
-deploy.sh
 upstream/
 SYNC.md
 sync-check.sh
+
+# Deployment backups and temporary files
+compose.yml.backup
+compose.override.yml
+*.backup
+openapi-ts-error-*.log
