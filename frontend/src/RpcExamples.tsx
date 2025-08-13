@@ -4,7 +4,7 @@ import { type GetApiChainsResponses } from "./client/types.gen"
 import { useQuery } from '@tanstack/react-query'
 import ExampleCard from "./components/ExampleCard"
 import ErrorComponent from "./components/ErrorComponent"
-import { encodingUtils } from "frostbyte-sdk"
+// encodingUtils is defined below
 
 type Chain = GetApiChainsResponses[200][0]
 

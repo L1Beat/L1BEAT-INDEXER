@@ -38,7 +38,7 @@ function CumulativeTxsList({ timestamp }: { timestamp: number }) {
                 chains.map(async (chain) => {
                     try {
                         const res = await getApiByEvmChainIdStatsCumulativeTxs({
-                            path: { evmChainId: String(chain.evmChainId) },
+                            path: { evmChainId: String(chain.evmChainId) as any },
                             query: { timestamp }
                         })
                         return {

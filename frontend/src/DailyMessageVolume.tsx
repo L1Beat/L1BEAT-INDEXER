@@ -77,7 +77,7 @@ function ChainDailyMessageVolumeChart({ selectedChainId, days }: { selectedChain
         queryFn: async () => {
             if (!selectedChainId) return []
             const res = await getApiByEvmChainIdMetricsDailyMessageVolume({
-                path: { evmChainId: String(selectedChainId) },
+                path: { evmChainId: String(selectedChainId) as any },
                 query: { days }
             })
             if (res.data) {

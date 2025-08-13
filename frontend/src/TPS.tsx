@@ -28,7 +28,7 @@ function TPSChart({ selectedChainId, period }: { selectedChainId: number | null,
         queryFn: async () => {
             if (!selectedChainId) return null
             const res = await getApiByEvmChainIdStatsTps({
-                path: { evmChainId: String(selectedChainId) },
+                path: { evmChainId: String(selectedChainId) as any },
                 query: { count: periodToCount[period] }
             })
             return res.data
