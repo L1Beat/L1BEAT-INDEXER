@@ -43,6 +43,7 @@ const module: ApiPlugin = {
     registerRoutes: (app, dbCtx) => {
         app.get('/api/global/ictt/transfers', {
             schema: {
+                tags: ["Token Transfers"],
                 querystring: {
                     type: 'object',
                     properties: {
@@ -154,6 +155,7 @@ const module: ApiPlugin = {
         // New endpoint for individual transfers list
         app.get('/api/global/ictt/transfers-list', {
             schema: {
+                tags: ["Token Transfers"],
                 querystring: {
                     type: 'object',
                     properties: {
@@ -341,6 +343,7 @@ const module: ApiPlugin = {
         // TVL (Total Value Locked) endpoint
         app.get('/api/global/ictt/tvl', {
             schema: {
+                tags: ["Token Transfers"],
                 querystring: {
                     type: 'object',
                     properties: {

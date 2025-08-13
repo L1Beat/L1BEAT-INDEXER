@@ -62,6 +62,7 @@ const module: ApiPlugin = {
             Querystring: { count?: number }
         }>('/api/global/messaging/comparison', {
             schema: {
+                tags: ["Cross-Chain Messaging"],
                 querystring: {
                     type: 'object',
                     properties: {
@@ -211,6 +212,7 @@ const module: ApiPlugin = {
             Querystring: { startTs?: number; endTs?: number }
         }>('/api/global/messaging/comparison/detailed', {
             schema: {
+                tags: ["Cross-Chain Messaging"],
                 querystring: {
                     type: 'object',
                     properties: {
@@ -450,6 +452,7 @@ const module: ApiPlugin = {
             Querystring: { days?: number }
         }>('/api/global/messaging/chain-pairs', {
             schema: {
+                tags: ["Cross-Chain Messaging"],
                 querystring: {
                     type: 'object',
                     properties: {

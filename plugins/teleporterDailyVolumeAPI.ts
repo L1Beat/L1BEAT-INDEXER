@@ -30,6 +30,7 @@ const module: ApiPlugin = {
         const { chainOptionsWithNames } = getAvailableChains();
         app.get('/api/global/metrics/dailyMessageVolume', {
             schema: {
+                tags: ["Cross-Chain Messaging"],
                 querystring: {
                     type: 'object',
                     properties: {
@@ -143,6 +144,7 @@ const module: ApiPlugin = {
             Querystring: { days?: number }
         }>('/api/:evmChainId/metrics/dailyMessageVolume', {
             schema: {
+                tags: ["Cross-Chain Messaging"],
                 params: {
                     type: 'object',
                     properties: {

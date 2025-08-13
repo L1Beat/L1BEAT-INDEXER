@@ -125,6 +125,7 @@ const module: ApiPlugin = {
         // Day leaderboard endpoint
         app.get('/api/global/leaderboard/day', {
             schema: {
+                tags: ["Cross-Chain Messaging"],
                 response: {
                     200: {
                         type: 'array',
@@ -150,6 +151,7 @@ const module: ApiPlugin = {
         // Week leaderboard endpoint
         app.get('/api/global/leaderboard/week', {
             schema: {
+                tags: ["Cross-Chain Messaging"],
                 response: {
                     200: {
                         type: 'array',

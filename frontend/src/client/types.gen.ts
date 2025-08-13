@@ -1014,9 +1014,9 @@ export type GetApiByEvmChainIdStatsTpsData = {
     body?: never;
     path: {
         /**
-         * Select chain from the dropdown. The API will use the chain ID (numbers before parentheses)
+         * EVM Chain ID. Available chains: 779672 - Dispatch, 16180 - PLYRPHI, 173750 - Echo L1 Testnet, 8021 - NUMINEMainnet, 379 - KOROSHIL, 741741 - GOODCARE
          */
-        evmChainId: '779672 (Dispatch)' | '16180 (PLYRPHI)' | '173750 (Echo L1 Testnet)' | '8021 (NUMINEMainnet)' | '379 (KOROSHIL)' | '741741 (GOODCARE)';
+        evmChainId: '779672' | '16180' | '173750' | '8021' | '379' | '741741';
     };
     query?: {
         count?: number;
@@ -1052,9 +1052,9 @@ export type GetApiByEvmChainIdStatsCumulativeTxsData = {
     body?: never;
     path: {
         /**
-         * Select chain from the dropdown. The API will use the chain ID (numbers before parentheses)
+         * EVM Chain ID. Available chains: 779672 - Dispatch, 16180 - PLYRPHI, 173750 - Echo L1 Testnet, 8021 - NUMINEMainnet, 379 - KOROSHIL, 741741 - GOODCARE
          */
-        evmChainId: '779672 (Dispatch)' | '16180 (PLYRPHI)' | '173750 (Echo L1 Testnet)' | '8021 (NUMINEMainnet)' | '379 (KOROSHIL)' | '741741 (GOODCARE)';
+        evmChainId: '779672' | '16180' | '173750' | '8021' | '379' | '741741';
     };
     query?: {
         /**

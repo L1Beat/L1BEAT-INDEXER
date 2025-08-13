@@ -21,6 +21,7 @@ const module: ApiPlugin = {
             Querystring: { period?: '1d' | '7d' | '30d' | '1h' }
         }>('/api/global/stats/tps', {
             schema: {
+                tags: ["Transaction Analytics"],
                 querystring: {
                     type: 'object',
                     properties: {

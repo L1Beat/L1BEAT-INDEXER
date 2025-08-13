@@ -24,6 +24,7 @@ const module: ApiPlugin = {
             Querystring: { timestamp?: number }
         }>('/api/:evmChainId/stats/icm-messages-total', {
             schema: {
+                tags: ["Cross-Chain Messaging"],
                 params: {
                     type: 'object',
                     properties: {

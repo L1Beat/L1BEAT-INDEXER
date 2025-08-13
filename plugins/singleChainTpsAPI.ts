@@ -35,6 +35,7 @@ const module: ApiPlugin = {
             Querystring: { count?: number }
         }>('/api/:evmChainId/stats/tps', {
             schema: {
+                tags: ["Transaction Analytics"],
                 params: {
                     type: 'object',
                     properties: {
@@ -130,6 +131,7 @@ const module: ApiPlugin = {
             Querystring: { timestamp?: number }
         }>('/api/:evmChainId/stats/cumulative-txs', {
             schema: {
+                tags: ["Transaction Analytics"],
                 params: {
                     type: 'object',
                     properties: {

@@ -34,6 +34,7 @@ const module: ApiPlugin = {
             }
         }>('/api/global/icm-gas-usage', {
             schema: {
+                tags: ["Cross-Chain Messaging"],
                 querystring: {
                     type: 'object',
                     properties: {
