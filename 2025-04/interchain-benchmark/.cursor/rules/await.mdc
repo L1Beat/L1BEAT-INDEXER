@@ -1,0 +1,37 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+
+
+# Always Use Top-Level Await in TypeScript Files
+
+In TypeScript files with the `.ts` extension, we should prefer using top-level await instead of creating separate async functions with manual invocation.
+
+## Bad Pattern ❌
+
+```typescript
+async function main() {
+  // code here
+  const result = await someAsyncOperation();
+  console.log(result);
+}
+
+main().catch(error => {
+  console.error("Operation failed:", error);
+});
+```
+
+## Good Pattern ✅
+
+```typescript
+// Using top-level await directly
+try {
+  // code here
+  const result = await someAsyncOperation();
+  console.log(result);
+} catch (error) {
+  console.error("Operation failed:", error);
+}
+```

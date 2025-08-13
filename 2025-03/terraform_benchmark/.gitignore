@@ -1,0 +1,7 @@
+.terraform
+.terraform.*
+terraform.*
+id_ed25519*
+node_modules
+.keys.txt
+03_infra.tf

@@ -1,0 +1,33 @@
+{
+  "name": "07_lmdb_based",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "rm -f ./database/*/indexing*; tsx watch --clear-screen=false start.ts",
+    "docker:push": "docker buildx build --platform linux/amd64 -t containerman17/idx3:latest --push .",
+    "docker:run": "docker buildx build -t idx3 --load . && docker run -it -v ${PWD}/database:/app/database -v ${PWD}/.env:/app/.env -p 3000:3000 idx3"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@avalabs/avalanchejs": "^5.0.0",
+    "@ethereumjs/rlp": "^10.0.0",
+    "@hono/node-server": "^1.14.4",
+    "@hono/zod-openapi": "^0.19.9",
+    "@noble/curves": "^1.9.2",
+    "@types/node": "^24.0.4",
+    "better-sqlite3": "^12.1.1",
+    "dotenv": "^17.0.0",
+    "hono": "^4.8.3",
+    "lz4-napi": "^2.8.0",
+    "msgpackr": "^1.11.4",
+    "p-queue": "^8.1.0",
+    "tsx": "^4.20.3",
+    "typescript": "^5.8.3"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.13"
+  }
+}

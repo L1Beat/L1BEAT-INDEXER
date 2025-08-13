@@ -1,0 +1,79 @@
+$ npm run build
+
+> 02_next_playground@0.1.0 build
+> next build
+
+   ▲ Next.js 15.2.4
+
+   Creating an optimized production build ...
+ ⚠ Compiled with warnings
+
+./node_modules/web-worker/cjs/node.js
+Critical dependency: the request of a dependency is an expression
+
+Import trace for requested module:
+./node_modules/web-worker/cjs/node.js
+./node_modules/ffjavascript/src/threadman.js
+./node_modules/ffjavascript/src/engine.js
+./node_modules/ffjavascript/src/bn128.js
+./node_modules/ffjavascript/main.js
+./node_modules/snarkjs/src/curves.js
+./node_modules/snarkjs/main.js
+./node_modules/@avalabs/eerc-sdk/dist/index.js
+./app/eerc/DemoClient.tsx
+
+Failed to compile.
+
+node:crypto
+Module build failed: UnhandledSchemeError: Reading from "node:crypto" is not handled by plugins (Unhandled scheme).
+Webpack supports "data:" and "file:" URIs by default.
+You may need an additional plugin to handle "node:" URIs.
+    at /Users/ilya.solohin/Projects/containerman17/experiments/2025-08/02_next_playground/node_modules/next/dist/compiled/webpack/bundle5.js:29:408376
+    at Hook.eval [as callAsync] (eval at create (/Users/ilya.solohin/Projects/containerman17/experiments/2025-08/02_next_playground/node_modules/next/dist/compiled/webpack/bundle5.js:14:9224), <anonymous>:6:1)
+    at Object.processResource (/Users/ilya.solohin/Projects/containerman17/experiments/2025-08/02_next_playground/node_modules/next/dist/compiled/webpack/bundle5.js:29:408301)
+    at processResource (/Users/ilya.solohin/Projects/containerman17/experiments/2025-08/02_next_playground/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:5308)
+    at iteratePitchingLoaders (/Users/ilya.solohin/Projects/containerman17/experiments/2025-08/02_next_playground/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:4667)
+    at runLoaders (/Users/ilya.solohin/Projects/containerman17/experiments/2025-08/02_next_playground/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:8590)
+    at NormalModule._doBuild (/Users/ilya.solohin/Projects/containerman17/experiments/2025-08/02_next_playground/node_modules/next/dist/compiled/webpack/bundle5.js:29:408163)
+    at NormalModule.build (/Users/ilya.solohin/Projects/containerman17/experiments/2025-08/02_next_playground/node_modules/next/dist/compiled/webpack/bundle5.js:29:410176)
+    at /Users/ilya.solohin/Projects/containerman17/experiments/2025-08/02_next_playground/node_modules/next/dist/compiled/webpack/bundle5.js:29:82494
+    at NormalModule.needBuild (/Users/ilya.solohin/Projects/containerman17/experiments/2025-08/02_next_playground/node_modules/next/dist/compiled/webpack/bundle5.js:29:414160)
+
+Import trace for requested module:
+node:crypto
+./node_modules/@avalabs/eerc-sdk/dist/index.js
+./app/eerc/DemoClient.tsx
+
+node:fs
+Module build failed: UnhandledSchemeError: Reading from "node:fs" is not handled by plugins (Unhandled scheme).
+Webpack supports "data:" and "file:" URIs by default.
+You may need an additional plugin to handle "node:" URIs.
+    at /Users/ilya.solohin/Projects/containerman17/experiments/2025-08/02_next_playground/node_modules/next/dist/compiled/webpack/bundle5.js:29:408376
+    at Hook.eval [as callAsync] (eval at create (/Users/ilya.solohin/Projects/containerman17/experiments/2025-08/02_next_playground/node_modules/next/dist/compiled/webpack/bundle5.js:14:9224), <anonymous>:6:1)
+    at Hook.CALL_ASYNC_DELEGATE [as _callAsync] (/Users/ilya.solohin/Projects/containerman17/experiments/2025-08/02_next_playground/node_modules/next/dist/compiled/webpack/bundle5.js:14:6378)
+    at Object.processResource (/Users/ilya.solohin/Projects/containerman17/experiments/2025-08/02_next_playground/node_modules/next/dist/compiled/webpack/bundle5.js:29:408301)
+    at processResource (/Users/ilya.solohin/Projects/containerman17/experiments/2025-08/02_next_playground/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:5308)
+    at iteratePitchingLoaders (/Users/ilya.solohin/Projects/containerman17/experiments/2025-08/02_next_playground/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:4667)
+    at runLoaders (/Users/ilya.solohin/Projects/containerman17/experiments/2025-08/02_next_playground/node_modules/next/dist/compiled/loader-runner/LoaderRunner.js:1:8590)
+    at NormalModule._doBuild (/Users/ilya.solohin/Projects/containerman17/experiments/2025-08/02_next_playground/node_modules/next/dist/compiled/webpack/bundle5.js:29:408163)
+    at NormalModule.build (/Users/ilya.solohin/Projects/containerman17/experiments/2025-08/02_next_playground/node_modules/next/dist/compiled/webpack/bundle5.js:29:410176)
+    at /Users/ilya.solohin/Projects/containerman17/experiments/2025-08/02_next_playground/node_modules/next/dist/compiled/webpack/bundle5.js:29:82494
+
+Import trace for requested module:
+node:fs
+./node_modules/@avalabs/eerc-sdk/dist/index.js
+./app/eerc/DemoClient.tsx
+
+./node_modules/@wagmi/core/dist/esm/query/utils.js
+Module not found: Can't resolve '@tanstack/query-core'
+
+https://nextjs.org/docs/messages/module-not-found
+
+Import trace for requested module:
+./node_modules/@wagmi/core/dist/esm/exports/query.js
+./node_modules/wagmi/dist/esm/hooks/useBalance.js
+./node_modules/wagmi/dist/esm/exports/index.js
+./app/eerc/DemoClient.tsx
+
+
+> Build failed because of webpack errors

@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+        "target": "ES2022",
+        "module": "ESNext",
+        "moduleResolution": "Node",
+        "strict": true,
+        "esModuleInterop": true,
+        "declaration": true,
+        "outDir": "dist",
+        "baseUrl": ".",
+        "paths": {
+            "@containerman17/core/*": [
+                "packages/core/src/*"
+            ],
+            "@containerman17/ui/*": [
+                "packages/ui/src/*"
+            ]
+        }
+    }
+}

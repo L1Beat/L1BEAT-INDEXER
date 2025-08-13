@@ -1,0 +1,37 @@
+services:
+  avago:
+    image: avaplatform/subnet-evm:v0.7.3
+    container_name: avago
+    network_mode: host
+    volumes:
+      - ~/.avalanchego:/root/.avalanchego
+    environment:
+      - AVAGO_PARTIAL_SYNC_PRIMARY_NETWORK=true
+      - AVAGO_PUBLIC_IP_RESOLUTION_SERVICE=opendns
+      - AVAGO_HTTP_HOST=0.0.0.0
+      - AVAGO_TRACK_SUBNETS=${subnetId}
+      - AVAGO_NETWORK_ID=fuji
+      - AVAGO_HTTP_ALLOWED_HOSTS=*
+      - AVAGO_PROPOSERVM_MIN_BLOCK_DELAY=600ms
+    restart: unless-stopped
+  bench:
+    image: containerman17/evmbombard
+    container_name: bench
+    network_mode: host
+    restart: unless-stopped
+    environment:
+      - RPC_URLS_COMBINED=${RPC_URLS_COMBINED}
+    command: >
+      evmbombard -rpc "${RPC_URLS_COMBINED}" -batch 10 -keys 1000
+  caddy:
+    image: caddy:2.8-alpine
+    container_name: caddy
+    network_mode: host
+    volumes:
+      - caddy_data:/data
+    command: >
+      caddy reverse-proxy --from ${PUBLIC_IPV4}.sslip.io --to localhost:9650
+    restart: unless-stopped
+
+volumes:
+  caddy_data:

@@ -1,0 +1,16 @@
+{
+    "2LFmzhHDKxkreihEtPanVmofuFn63bsh8twnRXEbDhBtCJxURB": "The RPC URL is behind an aggressive Cloudflare Protection",
+    "2XCTEc8CfNK9MtQWYMfgNt32QjZsZqq92LH7eTV5xY8YjY44du": "also https://rpc1.derachain.com/ext/bc/2XCTEc8CfNK9MtQWYMfgNt32QjZsZqq92LH7eTV5xY8YjY44du/rpc",
+    "222KARi6VgSZXbewFp1BvZgyuSKVa9JPb7swhbwN9fUHFKgxUD": "Probably a private chain. This is not the main Gunzilla Chain",
+    "27xa71ERzSzir2KuPmmsAFkceVA74Xfh8Fys8SrmHjdKyj1vqd": "not connected to enough stake: connected to 60.000000%; required at least 80.000000%",
+    "2FUHgWJcZ4j8FrEi1DsdGyq6vMWQXeQGbZLuzcU6sFAazvnrYd": "Looks like a japanese company. Probably a private chain.",
+    "2GiVhBPR19ZaHYQivmheYv8RkEBjfdu7AyDvSocbWWjR4gz1qf": "Probably a private chain. https://www.avax.network/about/blog/japans-mugen-chain-on-avalanche-records-1m-transactions-in-1-month",
+    "2MrmXmx4nrSn5BS3EAtWg5Pf9madiBoN7MRaByM88g49VArjDt": "Seems dead, no recent blocks, RPC is not responding. https://8888.snowtrace.io/ Has a dead RPC https://mainnet.xana.net/rpc",
+    "2PKgDmUGYJEV3gSBkvM7ztJuSk3g7omGjDjHdQR28Tv8JSxFBK": "Seems private. Medical stuff managed by Zeeve.",
+    "2vEit8MMxLNNfbMdoiBjvFP7MFwPwo1YmiLaBBxQU2YRGvdjJx": "Not sure which network is this, looks like NUMINEMainnet is the right one. ",
+    "2Zqzt687kQ4G7RiWYKypiWrid4ZPrFW3jg9Hy5SmNAVgebB2ph": "See \"Rymedi Transaction Subnet\"",
+    "tjoVGZ7f9FrXhi1QEH2NwHkPtvzmkGMPX6hkypYX6gK5YaXxN": "Big corp chain managed by Zeeve, no luck with RPC. Explorer is down https://explorer.fizit.zeeve.net/",
+    "m4xWma3wWpxHAAKWyDXX6oqvzKUkqCXnTJTwKmTkReJpcEuS6": "No public RPC found.",
+    "HnECQEqpvvXcBF9Jup1ti1XMowQGrSWiQSkKdwcjxEbzmTHMC": "See \"Rymedi Transaction Subnet\"",
+    "2HR9yTVXBwxJjmejn9yt1UQnrBpQVQRpxUQe6YUtEaWh9yqnPN": "Couldn't find any public info about this project."
+}

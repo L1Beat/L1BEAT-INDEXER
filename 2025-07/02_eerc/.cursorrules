@@ -1,0 +1,17 @@
+# Project Rules
+
+## Development Environment
+- Don't run the development server (`npm run dev`) - the user keeps it running in the background
+- This is a demo app, not a production app - keep implementations simple and straightforward
+
+## Tech Stack
+- React with TypeScript
+- Vite as build tool
+- Tailwind CSS for styling
+- viem for blockchain interactions
+- zustand for state management
+
+## Code Style
+- Keep code simple and straightforward
+- Avoid over-engineering solutions
+- This is for demo/experimental purposes
