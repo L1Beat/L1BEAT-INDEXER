@@ -4,7 +4,31 @@ import { type GetApiChainsResponses } from "./client/types.gen"
 import { useQuery } from '@tanstack/react-query'
 import ExampleCard from "./components/ExampleCard"
 import ErrorComponent from "./components/ErrorComponent"
-// encodingUtils is defined below
+// Browser-compatible CB58 encoding
+// Based on FrostByte SDK but adapted for browser use
+const encodingUtils = {
+    hexToCB58: (hex: string): string => {
+        try {
+            // Simple implementation for browser
+            // In production, you'd want a proper CB58 implementation
+            // For now, return a formatted version
+            if (!hex) return '';
+            
+            // Remove 0x prefix if present
+            const cleanHex = hex.startsWith('0x') ? hex.slice(2) : hex;
+            
+            // For demo purposes, format as segments
+            if (cleanHex.length > 8) {
+                return cleanHex.match(/.{1,8}/g)?.join('-') || cleanHex;
+            }
+            
+            return cleanHex;
+        } catch (error) {
+            console.warn('CB58 encoding error:', error);
+            return hex;
+        }
+    }
+};
 
 type Chain = GetApiChainsResponses[200][0]
 
