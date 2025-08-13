@@ -1,0 +1,2770 @@
+{
+  "1": {
+    "name": "ethereum #1",
+    "isAvalanche": false
+  },
+  "2": {
+    "name": "bsc #56",
+    "isAvalanche": false
+  },
+  "6": {
+    "name": "avalanche #43114",
+    "isAvalanche": false
+  },
+  "9": {
+    "name": "polygon #137",
+    "isAvalanche": false
+  },
+  "10": {
+    "name": "arbitrum #42161",
+    "isAvalanche": false
+  },
+  "11": {
+    "name": "optimism #10",
+    "isAvalanche": false
+  },
+  "12": {
+    "name": "fantom #250",
+    "isAvalanche": false
+  },
+  "14": {
+    "name": "swimmer",
+    "isAvalanche": true
+  },
+  "15": {
+    "name": "dfk #53935",
+    "isAvalanche": true
+  },
+  "16": {
+    "name": "harmony #1666600000",
+    "isAvalanche": false
+  },
+  "26": {
+    "name": "moonbeam #1284",
+    "isAvalanche": false
+  },
+  "101": {
+    "name": "ethereum #1",
+    "isAvalanche": false
+  },
+  "102": {
+    "name": "bsc #56",
+    "isAvalanche": false
+  },
+  "106": {
+    "name": "avalanche #43114",
+    "isAvalanche": false
+  },
+  "108": {
+    "name": "aptos #1",
+    "isAvalanche": false
+  },
+  "109": {
+    "name": "polygon #137",
+    "isAvalanche": false
+  },
+  "110": {
+    "name": "arbitrum #42161",
+    "isAvalanche": false
+  },
+  "111": {
+    "name": "optimism #10",
+    "isAvalanche": false
+  },
+  "112": {
+    "name": "fantom #250",
+    "isAvalanche": false
+  },
+  "114": {
+    "name": "swimmer",
+    "isAvalanche": true
+  },
+  "115": {
+    "name": "dfk #53935",
+    "isAvalanche": true
+  },
+  "116": {
+    "name": "harmony #1666600000",
+    "isAvalanche": false
+  },
+  "118": {
+    "name": "dexalot #432204",
+    "isAvalanche": true
+  },
+  "125": {
+    "name": "celo #42220",
+    "isAvalanche": false
+  },
+  "126": {
+    "name": "moonbeam #1284",
+    "isAvalanche": false
+  },
+  "138": {
+    "name": "fuse #122",
+    "isAvalanche": false
+  },
+  "145": {
+    "name": "gnosis #100",
+    "isAvalanche": false
+  },
+  "148": {
+    "name": "shrapnel #2044",
+    "isAvalanche": true
+  },
+  "149": {
+    "name": "dos #7979",
+    "isAvalanche": true
+  },
+  "150": {
+    "name": "klaytn #8217",
+    "isAvalanche": false
+  },
+  "151": {
+    "name": "metis #1088",
+    "isAvalanche": false
+  },
+  "152": {
+    "name": "intain",
+    "isAvalanche": true
+  },
+  "153": {
+    "name": "coredao #1116",
+    "isAvalanche": false
+  },
+  "154": {
+    "name": "goerli #11155111",
+    "isAvalanche": false
+  },
+  "155": {
+    "name": "okx #66",
+    "isAvalanche": false
+  },
+  "158": {
+    "name": "zkevm #1101",
+    "isAvalanche": false
+  },
+  "159": {
+    "name": "canto #7700",
+    "isAvalanche": false
+  },
+  "161": {
+    "name": "sepolia #11155111",
+    "isAvalanche": false
+  },
+  "165": {
+    "name": "zksync #324",
+    "isAvalanche": false
+  },
+  "166": {
+    "name": "moonriver #1285",
+    "isAvalanche": false
+  },
+  "167": {
+    "name": "moonriver #1285",
+    "isAvalanche": false
+  },
+  "173": {
+    "name": "tenet #1559",
+    "isAvalanche": false
+  },
+  "175": {
+    "name": "nova #42170",
+    "isAvalanche": false
+  },
+  "176": {
+    "name": "meter #82",
+    "isAvalanche": false
+  },
+  "177": {
+    "name": "kava #2222",
+    "isAvalanche": false
+  },
+  "181": {
+    "name": "mantle #5000",
+    "isAvalanche": false
+  },
+  "182": {
+    "name": "hubble #1992",
+    "isAvalanche": false
+  },
+  "183": {
+    "name": "linea #59144",
+    "isAvalanche": false
+  },
+  "184": {
+    "name": "base #8453",
+    "isAvalanche": false
+  },
+  "195": {
+    "name": "zora #7777777",
+    "isAvalanche": false
+  },
+  "196": {
+    "name": "tomo #88",
+    "isAvalanche": false
+  },
+  "197": {
+    "name": "loot #5151706",
+    "isAvalanche": false
+  },
+  "198": {
+    "name": "beam #4337",
+    "isAvalanche": true
+  },
+  "199": {
+    "name": "telos #40",
+    "isAvalanche": false
+  },
+  "202": {
+    "name": "opbnb #204",
+    "isAvalanche": false
+  },
+  "210": {
+    "name": "astar #592",
+    "isAvalanche": false
+  },
+  "211": {
+    "name": "aurora #1313161554",
+    "isAvalanche": false
+  },
+  "212": {
+    "name": "conflux #1030",
+    "isAvalanche": false
+  },
+  "213": {
+    "name": "orderly #291",
+    "isAvalanche": false
+  },
+  "214": {
+    "name": "scroll #534352",
+    "isAvalanche": false
+  },
+  "215": {
+    "name": "eon #7332",
+    "isAvalanche": false
+  },
+  "216": {
+    "name": "xpla #37",
+    "isAvalanche": false
+  },
+  "217": {
+    "name": "manta #169",
+    "isAvalanche": false
+  },
+  "218": {
+    "name": "pgn #424",
+    "isAvalanche": false
+  },
+  "230": {
+    "name": "shimmer #148",
+    "isAvalanche": false
+  },
+  "234": {
+    "name": "bb1 #2525",
+    "isAvalanche": false
+  },
+  "235": {
+    "name": "rarible #1380012617",
+    "isAvalanche": false
+  },
+  "236": {
+    "name": "xai #660279",
+    "isAvalanche": false
+  },
+  "237": {
+    "name": "real #111188",
+    "isAvalanche": false
+  },
+  "238": {
+    "name": "tiltyard #710420",
+    "isAvalanche": true
+  },
+  "243": {
+    "name": "blast #81457",
+    "isAvalanche": false
+  },
+  "255": {
+    "name": "fraxtal #252",
+    "isAvalanche": false
+  },
+  "257": {
+    "name": "zkatana #3776",
+    "isAvalanche": false
+  },
+  "260": {
+    "name": "mode #34443",
+    "isAvalanche": false
+  },
+  "263": {
+    "name": "masa #13396",
+    "isAvalanche": true
+  },
+  "265": {
+    "name": "homeverse #19011",
+    "isAvalanche": false
+  },
+  "266": {
+    "name": "merlin #4200",
+    "isAvalanche": false
+  },
+  "267": {
+    "name": "degen #666666666",
+    "isAvalanche": false
+  },
+  "273": {
+    "name": "skale #2046399126",
+    "isAvalanche": false
+  },
+  "274": {
+    "name": "xlayer #196",
+    "isAvalanche": false
+  },
+  "278": {
+    "name": "sanko #1996",
+    "isAvalanche": false
+  },
+  "279": {
+    "name": "bob #60808",
+    "isAvalanche": false
+  },
+  "280": {
+    "name": "sei #1329",
+    "isAvalanche": false
+  },
+  "282": {
+    "name": "ebi #98881",
+    "isAvalanche": false
+  },
+  "283": {
+    "name": "cyber #7560",
+    "isAvalanche": false
+  },
+  "284": {
+    "name": "iota #8822",
+    "isAvalanche": false
+  },
+  "285": {
+    "name": "joc #81",
+    "isAvalanche": false
+  },
+  "290": {
+    "name": "taiko #167000",
+    "isAvalanche": false
+  },
+  "291": {
+    "name": "xchain #94524",
+    "isAvalanche": false
+  },
+  "292": {
+    "name": "etherlink #42793",
+    "isAvalanche": false
+  },
+  "293": {
+    "name": "bouncebit #6001",
+    "isAvalanche": false
+  },
+  "294": {
+    "name": "gravity #1625",
+    "isAvalanche": false
+  },
+  "295": {
+    "name": "flare #14",
+    "isAvalanche": false
+  },
+  "301": {
+    "name": "zklink #810180",
+    "isAvalanche": false
+  },
+  "302": {
+    "name": "peaq #3338",
+    "isAvalanche": false
+  },
+  "303": {
+    "name": "zircuit #48900",
+    "isAvalanche": false
+  },
+  "309": {
+    "name": "lightlink #1890",
+    "isAvalanche": false
+  },
+  "311": {
+    "name": "lyra #957",
+    "isAvalanche": false
+  },
+  "312": {
+    "name": "ape #33139",
+    "isAvalanche": false
+  },
+  "313": {
+    "name": "reya #1729",
+    "isAvalanche": false
+  },
+  "314": {
+    "name": "bitlayer #200901",
+    "isAvalanche": false
+  },
+  "315": {
+    "name": "dm2verse #68770",
+    "isAvalanche": false
+  },
+  "316": {
+    "name": "hedera #295",
+    "isAvalanche": false
+  },
+  "317": {
+    "name": "bevm #11501",
+    "isAvalanche": false
+  },
+  "318": {
+    "name": "plume #98865",
+    "isAvalanche": false
+  },
+  "319": {
+    "name": "worldchain #480",
+    "isAvalanche": false
+  },
+  "320": {
+    "name": "unichain #130",
+    "isAvalanche": false
+  },
+  "321": {
+    "name": "lisk #1135",
+    "isAvalanche": false
+  },
+  "322": {
+    "name": "morph #2818",
+    "isAvalanche": false
+  },
+  "323": {
+    "name": "codex #81224",
+    "isAvalanche": false
+  },
+  "324": {
+    "name": "abstract #2741",
+    "isAvalanche": false
+  },
+  "327": {
+    "name": "superposition #55244",
+    "isAvalanche": false
+  },
+  "328": {
+    "name": "edu #41923",
+    "isAvalanche": false
+  },
+  "329": {
+    "name": "hemi #43111",
+    "isAvalanche": false
+  },
+  "330": {
+    "name": "islander #1480",
+    "isAvalanche": false
+  },
+  "331": {
+    "name": "mp1 #21000000",
+    "isAvalanche": false
+  },
+  "332": {
+    "name": "sonic #146",
+    "isAvalanche": false
+  },
+  "333": {
+    "name": "rootstock #30",
+    "isAvalanche": false
+  },
+  "334": {
+    "name": "sophon #50104",
+    "isAvalanche": false
+  },
+  "335": {
+    "name": "swell #1923",
+    "isAvalanche": false
+  },
+  "336": {
+    "name": "flow #747",
+    "isAvalanche": false
+  },
+  "337": {
+    "name": "bl4",
+    "isAvalanche": false
+  },
+  "338": {
+    "name": "bl5",
+    "isAvalanche": false
+  },
+  "339": {
+    "name": "ink #57073",
+    "isAvalanche": false
+  },
+  "340": {
+    "name": "soneium #1868",
+    "isAvalanche": false
+  },
+  "341": {
+    "name": "space #8227",
+    "isAvalanche": true
+  },
+  "342": {
+    "name": "glue #1300",
+    "isAvalanche": false
+  },
+  "359": {
+    "name": "cronosevm #25",
+    "isAvalanche": false
+  },
+  "360": {
+    "name": "cronoszkevm #388",
+    "isAvalanche": false
+  },
+  "361": {
+    "name": "goat #2345",
+    "isAvalanche": false
+  },
+  "362": {
+    "name": "bera #80094",
+    "isAvalanche": false
+  },
+  "363": {
+    "name": "bahamut #5165",
+    "isAvalanche": false
+  },
+  "364": {
+    "name": "story #1514",
+    "isAvalanche": false
+  },
+  "365": {
+    "name": "xdc #50",
+    "isAvalanche": false
+  },
+  "366": {
+    "name": "concrete #12739",
+    "isAvalanche": false
+  },
+  "367": {
+    "name": "hyperliquid #999",
+    "isAvalanche": false
+  },
+  "369": {
+    "name": "nibiru #6900",
+    "isAvalanche": false
+  },
+  "370": {
+    "name": "plumephoenix #98866",
+    "isAvalanche": false
+  },
+  "371": {
+    "name": "gunz #43419",
+    "isAvalanche": true
+  },
+  "372": {
+    "name": "animechain #69000",
+    "isAvalanche": false
+  },
+  "373": {
+    "name": "lens #232",
+    "isAvalanche": false
+  },
+  "374": {
+    "name": "subtensorevm #964",
+    "isAvalanche": false
+  },
+  "375": {
+    "name": "katana #747474",
+    "isAvalanche": false
+  },
+  "376": {
+    "name": "botanix #3637",
+    "isAvalanche": false
+  },
+  "377": {
+    "name": "tac #239",
+    "isAvalanche": false
+  },
+  "379": {
+    "name": "silicon #2355",
+    "isAvalanche": false
+  },
+  "380": {
+    "name": "somnia #50312",
+    "isAvalanche": false
+  },
+  "381": {
+    "name": "camp #484",
+    "isAvalanche": false
+  },
+  "382": {
+    "name": "humanity #6985385",
+    "isAvalanche": false
+  },
+  "400": {
+    "name": "converge #432",
+    "isAvalanche": false
+  },
+  "420": {
+    "name": "tron #728126428",
+    "isAvalanche": false
+  },
+  "10102": {
+    "name": "bsc-testnet #97",
+    "isAvalanche": false
+  },
+  "10106": {
+    "name": "fuji #43113",
+    "isAvalanche": false
+  },
+  "10108": {
+    "name": "aptos-testnet #2",
+    "isAvalanche": false
+  },
+  "10109": {
+    "name": "mumbai #80001",
+    "isAvalanche": false
+  },
+  "10112": {
+    "name": "fantom-testnet #4002",
+    "isAvalanche": false
+  },
+  "10115": {
+    "name": "dfk-testnet #335",
+    "isAvalanche": true
+  },
+  "10118": {
+    "name": "dexalot-testnet #432201",
+    "isAvalanche": true
+  },
+  "10121": {
+    "name": "goerli #11155111",
+    "isAvalanche": false
+  },
+  "10125": {
+    "name": "alfajores #44787",
+    "isAvalanche": false
+  },
+  "10126": {
+    "name": "moonbase #1287",
+    "isAvalanche": false
+  },
+  "10130": {
+    "name": "swimmer-testnet",
+    "isAvalanche": true
+  },
+  "10132": {
+    "name": "optimism-goerli #420",
+    "isAvalanche": false
+  },
+  "10133": {
+    "name": "harmony-testnet #1666900000",
+    "isAvalanche": false
+  },
+  "10138": {
+    "name": "fusespark #123",
+    "isAvalanche": false
+  },
+  "10143": {
+    "name": "arbitrum-goerli #421613",
+    "isAvalanche": false
+  },
+  "10145": {
+    "name": "chiado #10200",
+    "isAvalanche": false
+  },
+  "10150": {
+    "name": "klaytn-baobab #1001",
+    "isAvalanche": false
+  },
+  "10151": {
+    "name": "metis-goerli #599",
+    "isAvalanche": false
+  },
+  "10152": {
+    "name": "intain-testnet",
+    "isAvalanche": true
+  },
+  "10153": {
+    "name": "coredao-testnet #1115",
+    "isAvalanche": false
+  },
+  "10155": {
+    "name": "okx-testnet #65",
+    "isAvalanche": false
+  },
+  "10156": {
+    "name": "meter-testnet #83",
+    "isAvalanche": false
+  },
+  "10157": {
+    "name": "linea-goerli #59140",
+    "isAvalanche": false
+  },
+  "10158": {
+    "name": "zkevm-testnet #1442",
+    "isAvalanche": false
+  },
+  "10159": {
+    "name": "canto-testnet #7701",
+    "isAvalanche": false
+  },
+  "10160": {
+    "name": "base-goerli #84531",
+    "isAvalanche": false
+  },
+  "10161": {
+    "name": "sepolia #11155111",
+    "isAvalanche": false
+  },
+  "10162": {
+    "name": "dos-testnet #3939",
+    "isAvalanche": true
+  },
+  "10164": {
+    "name": "shrapnel-testnet #2038",
+    "isAvalanche": true
+  },
+  "10165": {
+    "name": "zksync-testnet #280",
+    "isAvalanche": false
+  },
+  "10171": {
+    "name": "cathay-testnet",
+    "isAvalanche": false
+  },
+  "10172": {
+    "name": "kava-testnet #2221",
+    "isAvalanche": false
+  },
+  "10173": {
+    "name": "tenet-testnet #155",
+    "isAvalanche": false
+  },
+  "10177": {
+    "name": "blockgen-testnet",
+    "isAvalanche": false
+  },
+  "10178": {
+    "name": "beam-testnet #13337",
+    "isAvalanche": true
+  },
+  "10181": {
+    "name": "mantle-testnet #5001",
+    "isAvalanche": false
+  },
+  "10182": {
+    "name": "hubble-testnet",
+    "isAvalanche": false
+  },
+  "10191": {
+    "name": "aavegotchi-testnet",
+    "isAvalanche": false
+  },
+  "10195": {
+    "name": "zora-testnet #999",
+    "isAvalanche": false
+  },
+  "10196": {
+    "name": "tomo-testnet #89",
+    "isAvalanche": false
+  },
+  "10197": {
+    "name": "loot-testnet #9088912",
+    "isAvalanche": false
+  },
+  "10199": {
+    "name": "telos-testnet #41",
+    "isAvalanche": false
+  },
+  "10200": {
+    "name": "orderly-testnet #4460",
+    "isAvalanche": false
+  },
+  "10201": {
+    "name": "aurora-testnet #1313161555",
+    "isAvalanche": false
+  },
+  "10202": {
+    "name": "opbnb-testnet #5611",
+    "isAvalanche": false
+  },
+  "10204": {
+    "name": "monad-testnet #10143",
+    "isAvalanche": false
+  },
+  "10206": {
+    "name": "spruce-testnet #424242",
+    "isAvalanche": false
+  },
+  "10207": {
+    "name": "pgjjtk-testnet",
+    "isAvalanche": false
+  },
+  "10208": {
+    "name": "oda-testnet #25",
+    "isAvalanche": false
+  },
+  "10209": {
+    "name": "kiwi-testnet #2037",
+    "isAvalanche": true
+  },
+  "10210": {
+    "name": "astar-testnet #81",
+    "isAvalanche": false
+  },
+  "10211": {
+    "name": "conflux-testnet #71",
+    "isAvalanche": false
+  },
+  "10214": {
+    "name": "scroll-testnet #534351",
+    "isAvalanche": false
+  },
+  "10215": {
+    "name": "eon-testnet #1663",
+    "isAvalanche": false
+  },
+  "10216": {
+    "name": "xpla-testnet #47",
+    "isAvalanche": false
+  },
+  "10217": {
+    "name": "holesky-testnet #17000",
+    "isAvalanche": false
+  },
+  "10218": {
+    "name": "injective-testnet #1738",
+    "isAvalanche": false
+  },
+  "10219": {
+    "name": "idex-testnet",
+    "isAvalanche": false
+  },
+  "10220": {
+    "name": "zkatana-testnet #1261120",
+    "isAvalanche": false
+  },
+  "10221": {
+    "name": "manta-testnet #3441005",
+    "isAvalanche": false
+  },
+  "10222": {
+    "name": "frame-testnet #68840142",
+    "isAvalanche": false
+  },
+  "10223": {
+    "name": "pgn-testnet #58008",
+    "isAvalanche": false
+  },
+  "10224": {
+    "name": "polygoncdk-testnet #686669576",
+    "isAvalanche": false
+  },
+  "10230": {
+    "name": "shimmer-testnet #1073",
+    "isAvalanche": false
+  },
+  "10231": {
+    "name": "arbitrum-sepolia #421614",
+    "isAvalanche": false
+  },
+  "10232": {
+    "name": "optimism-sepolia #11155420",
+    "isAvalanche": false
+  },
+  "10234": {
+    "name": "venn-testnet",
+    "isAvalanche": false
+  },
+  "10235": {
+    "name": "rarible-testnet #1918988905",
+    "isAvalanche": false
+  },
+  "10236": {
+    "name": "gunzilla-testnet #49321",
+    "isAvalanche": true
+  },
+  "10238": {
+    "name": "rc1-testnet #1127469",
+    "isAvalanche": true
+  },
+  "10239": {
+    "name": "etherlink-testnet #128123",
+    "isAvalanche": false
+  },
+  "10241": {
+    "name": "kiwi2-testnet #2037",
+    "isAvalanche": true
+  },
+  "10242": {
+    "name": "joc-testnet #10081",
+    "isAvalanche": false
+  },
+  "10243": {
+    "name": "blast-testnet #168587773",
+    "isAvalanche": false
+  },
+  "10245": {
+    "name": "base-sepolia #84532",
+    "isAvalanche": false
+  },
+  "10246": {
+    "name": "mantle-sepolia #5003",
+    "isAvalanche": false
+  },
+  "10247": {
+    "name": "zkpolygon-sepolia #2442",
+    "isAvalanche": false
+  },
+  "10248": {
+    "name": "zksync-sepolia #300",
+    "isAvalanche": false
+  },
+  "10249": {
+    "name": "zora-sepolia #999999999",
+    "isAvalanche": false
+  },
+  "10251": {
+    "name": "xai-testnet #37714555429",
+    "isAvalanche": false
+  },
+  "10252": {
+    "name": "tangible-testnet",
+    "isAvalanche": false
+  },
+  "10255": {
+    "name": "fraxtal-testnet #2522",
+    "isAvalanche": false
+  },
+  "10256": {
+    "name": "bera-testnet #80084",
+    "isAvalanche": false
+  },
+  "10258": {
+    "name": "sei-testnet #713715",
+    "isAvalanche": false
+  },
+  "10259": {
+    "name": "exocore-testnet #233",
+    "isAvalanche": false
+  },
+  "10260": {
+    "name": "mode-testnet #919",
+    "isAvalanche": false
+  },
+  "10262": {
+    "name": "unreal-testnet #18233",
+    "isAvalanche": false
+  },
+  "10263": {
+    "name": "masa-testnet #103454",
+    "isAvalanche": true
+  },
+  "10264": {
+    "name": "merlin-testnet #686868",
+    "isAvalanche": false
+  },
+  "10265": {
+    "name": "homeverse-testnet #40875",
+    "isAvalanche": false
+  },
+  "10266": {
+    "name": "zkastar-testnet #6038361",
+    "isAvalanche": false
+  },
+  "10267": {
+    "name": "amoy-testnet #80002",
+    "isAvalanche": false
+  },
+  "10269": {
+    "name": "xlayer-testnet #195",
+    "isAvalanche": false
+  },
+  "10270": {
+    "name": "form-testnet #478",
+    "isAvalanche": false
+  },
+  "10271": {
+    "name": "ll1-testnet #1337",
+    "isAvalanche": false
+  },
+  "10272": {
+    "name": "mantasep-testnet #3441006",
+    "isAvalanche": false
+  },
+  "10273": {
+    "name": "skale-testnet #1444673419",
+    "isAvalanche": false
+  },
+  "10274": {
+    "name": "taiko-testnet #167009",
+    "isAvalanche": false
+  },
+  "10275": {
+    "name": "zircuit-testnet #48899",
+    "isAvalanche": false
+  },
+  "10277": {
+    "name": "olive-testnet #8101902",
+    "isAvalanche": false
+  },
+  "10278": {
+    "name": "sanko-testnet #1992",
+    "isAvalanche": false
+  },
+  "10279": {
+    "name": "bob-testnet #111",
+    "isAvalanche": false
+  },
+  "10280": {
+    "name": "cyber-testnet #111557560",
+    "isAvalanche": false
+  },
+  "10281": {
+    "name": "botanix-testnet #3636",
+    "isAvalanche": false
+  },
+  "10282": {
+    "name": "xchain-testnet #64002",
+    "isAvalanche": false
+  },
+  "10283": {
+    "name": "zklink-testnet #810181",
+    "isAvalanche": false
+  },
+  "10284": {
+    "name": "ebi-testnet #98882",
+    "isAvalanche": false
+  },
+  "10285": {
+    "name": "hedera-testnet #296",
+    "isAvalanche": false
+  },
+  "10286": {
+    "name": "lineasep-testnet #59141",
+    "isAvalanche": false
+  },
+  "10288": {
+    "name": "besu1-testnet #1337",
+    "isAvalanche": false
+  },
+  "10289": {
+    "name": "bouncebit-testnet #6000",
+    "isAvalanche": false
+  },
+  "10291": {
+    "name": "bartio #80084",
+    "isAvalanche": false
+  },
+  "10292": {
+    "name": "metissep-testnet #59902",
+    "isAvalanche": false
+  },
+  "10294": {
+    "name": "flare-testnet #114",
+    "isAvalanche": false
+  },
+  "10295": {
+    "name": "camp-testnet #325000",
+    "isAvalanche": false
+  },
+  "10296": {
+    "name": "glue-testnet #1300",
+    "isAvalanche": false
+  },
+  "10297": {
+    "name": "opencampus-testnet #656476",
+    "isAvalanche": false
+  },
+  "10298": {
+    "name": "vanguard-testnet #78600",
+    "isAvalanche": false
+  },
+  "10299": {
+    "name": "peaq-testnet #9990",
+    "isAvalanche": false
+  },
+  "10300": {
+    "name": "lif3-testnet #1811",
+    "isAvalanche": false
+  },
+  "10301": {
+    "name": "fi-testnet #18026",
+    "isAvalanche": false
+  },
+  "10304": {
+    "name": "plume-testnet #161221135",
+    "isAvalanche": false
+  },
+  "10306": {
+    "name": "curtis-testnet #33111",
+    "isAvalanche": false
+  },
+  "10307": {
+    "name": "iota-testnet #1075",
+    "isAvalanche": false
+  },
+  "10308": {
+    "name": "lyra-testnet #901",
+    "isAvalanche": false
+  },
+  "10309": {
+    "name": "lightlink-testnet #1891",
+    "isAvalanche": false
+  },
+  "10311": {
+    "name": "codex-testnet #6513784",
+    "isAvalanche": false
+  },
+  "10313": {
+    "name": "abstract-testnet #11124",
+    "isAvalanche": false
+  },
+  "10315": {
+    "name": "story-testnet #1513",
+    "isAvalanche": false
+  },
+  "10318": {
+    "name": "root-testnet #7672",
+    "isAvalanche": false
+  },
+  "10319": {
+    "name": "reya-testnet #89346162",
+    "isAvalanche": false
+  },
+  "10320": {
+    "name": "bitlayer-testnet #200810",
+    "isAvalanche": false
+  },
+  "10321": {
+    "name": "dm2verse-testnet #68775",
+    "isAvalanche": false
+  },
+  "10322": {
+    "name": "morph-testnet #2810",
+    "isAvalanche": false
+  },
+  "10323": {
+    "name": "ozean-testnet #7849306",
+    "isAvalanche": false
+  },
+  "10324": {
+    "name": "bevm-testnet #11503",
+    "isAvalanche": false
+  },
+  "10327": {
+    "name": "lisk-testnet #4202",
+    "isAvalanche": false
+  },
+  "10328": {
+    "name": "kevnet-testnet #1301",
+    "isAvalanche": false
+  },
+  "10329": {
+    "name": "plume2-testnet #18230",
+    "isAvalanche": false
+  },
+  "10330": {
+    "name": "ble-testnet #52085143",
+    "isAvalanche": false
+  },
+  "10331": {
+    "name": "bl2-testnet #71461164656",
+    "isAvalanche": false
+  },
+  "10333": {
+    "name": "unichain-testnet #1301",
+    "isAvalanche": false
+  },
+  "10334": {
+    "name": "minato-testnet #1946",
+    "isAvalanche": false
+  },
+  "10335": {
+    "name": "worldcoin-testnet #4801",
+    "isAvalanche": false
+  },
+  "10336": {
+    "name": "superposition-testnet #98985",
+    "isAvalanche": false
+  },
+  "10337": {
+    "name": "otherworld-testnet #48795",
+    "isAvalanche": true
+  },
+  "10338": {
+    "name": "hemi-testnet #743111",
+    "isAvalanche": false
+  },
+  "10339": {
+    "name": "gameswift-testnet #10888",
+    "isAvalanche": false
+  },
+  "10340": {
+    "name": "odyssey-testnet #1516",
+    "isAvalanche": false
+  },
+  "10341": {
+    "name": "sophon-testnet #531050104",
+    "isAvalanche": false
+  },
+  "10342": {
+    "name": "moksha-testnet #14800",
+    "isAvalanche": false
+  },
+  "10344": {
+    "name": "citrea-testnet #5115",
+    "isAvalanche": false
+  },
+  "10345": {
+    "name": "mp1-testnet #21000001",
+    "isAvalanche": false
+  },
+  "10346": {
+    "name": "bl3-testnet #80000",
+    "isAvalanche": false
+  },
+  "10347": {
+    "name": "bahamut-testnet #2552",
+    "isAvalanche": false
+  },
+  "10348": {
+    "name": "treasure-testnet #978658",
+    "isAvalanche": false
+  },
+  "10349": {
+    "name": "sonic-testnet #57054",
+    "isAvalanche": false
+  },
+  "10350": {
+    "name": "rootstock-testnet #31",
+    "isAvalanche": false
+  },
+  "10351": {
+    "name": "flow-testnet #545",
+    "isAvalanche": false
+  },
+  "10353": {
+    "name": "swell-testnet #1924",
+    "isAvalanche": false
+  },
+  "10354": {
+    "name": "memecoreformicarium-testnet #43521",
+    "isAvalanche": false
+  },
+  "10355": {
+    "name": "apexfusionnexus-testnet #9070",
+    "isAvalanche": false
+  },
+  "10356": {
+    "name": "goat-testnet #48816",
+    "isAvalanche": false
+  },
+  "10357": {
+    "name": "bl6-testnet #996353",
+    "isAvalanche": false
+  },
+  "10358": {
+    "name": "ink-testnet #763373",
+    "isAvalanche": false
+  },
+  "10359": {
+    "name": "cronosevm-testnet #338",
+    "isAvalanche": false
+  },
+  "10360": {
+    "name": "cronoszkevm-testnet #240",
+    "isAvalanche": false
+  },
+  "10361": {
+    "name": "stabledevnet-testnet #2201",
+    "isAvalanche": false
+  },
+  "10362": {
+    "name": "hyperliquid-testnet #998",
+    "isAvalanche": false
+  },
+  "10369": {
+    "name": "nibiru-testnet #7210",
+    "isAvalanche": false
+  },
+  "10370": {
+    "name": "megaeth-testnet #6342",
+    "isAvalanche": false
+  },
+  "10371": {
+    "name": "bepolia-testnet #80069",
+    "isAvalanche": false
+  },
+  "10372": {
+    "name": "animechain-testnet #6900",
+    "isAvalanche": false
+  },
+  "10373": {
+    "name": "lens-testnet #37111",
+    "isAvalanche": false
+  },
+  "10374": {
+    "name": "stable-testnet #2201",
+    "isAvalanche": false
+  },
+  "10375": {
+    "name": "ondo-testnet #9000",
+    "isAvalanche": false
+  },
+  "10376": {
+    "name": "somnia-testnet #50312",
+    "isAvalanche": false
+  },
+  "10377": {
+    "name": "subtensorevm-testnet #945",
+    "isAvalanche": false
+  },
+  "10402": {
+    "name": "converge-testnet #52085144",
+    "isAvalanche": false
+  },
+  "10403": {
+    "name": "katana-testnet #129399",
+    "isAvalanche": false
+  },
+  "10404": {
+    "name": "tacspb-testnet #2391",
+    "isAvalanche": false
+  },
+  "10405": {
+    "name": "somniashannon-testnet #50312",
+    "isAvalanche": false
+  },
+  "10406": {
+    "name": "siliconsepolia-testnet #1414",
+    "isAvalanche": false
+  },
+  "10407": {
+    "name": "ethereal-testnet #657468",
+    "isAvalanche": false
+  },
+  "10408": {
+    "name": "injective1439-testnet #1439",
+    "isAvalanche": false
+  },
+  "10409": {
+    "name": "plasma-testnet #9746",
+    "isAvalanche": false
+  },
+  "10410": {
+    "name": "humanity-testnet #7080969",
+    "isAvalanche": false
+  },
+  "10411": {
+    "name": "plasma2-testnet #9746",
+    "isAvalanche": false
+  },
+  "10412": {
+    "name": "dinari-testnet #179205",
+    "isAvalanche": true
+  },
+  "10420": {
+    "name": "tron-testnet #2494104990",
+    "isAvalanche": false
+  },
+  "20102": {
+    "name": "bsc-sandbox #889156",
+    "isAvalanche": false
+  },
+  "20109": {
+    "name": "polygon-sandbox #8891137",
+    "isAvalanche": false
+  },
+  "20121": {
+    "name": "ethereum-sandbox #88911",
+    "isAvalanche": false
+  },
+  "20132": {
+    "name": "optimism-sandbox",
+    "isAvalanche": false
+  },
+  "20165": {
+    "name": "zksync-sandbox",
+    "isAvalanche": false
+  },
+  "20231": {
+    "name": "arbitrum-sandbox",
+    "isAvalanche": false
+  },
+  "20420": {
+    "name": "tron-sandbox",
+    "isAvalanche": false
+  },
+  "30101": {
+    "name": "ethereum #1",
+    "isAvalanche": false
+  },
+  "30102": {
+    "name": "bsc #56",
+    "isAvalanche": false
+  },
+  "30106": {
+    "name": "avalanche #43114",
+    "isAvalanche": false
+  },
+  "30108": {
+    "name": "aptos #1",
+    "isAvalanche": false
+  },
+  "30109": {
+    "name": "polygon #137",
+    "isAvalanche": false
+  },
+  "30110": {
+    "name": "arbitrum #42161",
+    "isAvalanche": false
+  },
+  "30111": {
+    "name": "optimism #10",
+    "isAvalanche": false
+  },
+  "30112": {
+    "name": "fantom #250",
+    "isAvalanche": false
+  },
+  "30114": {
+    "name": "swimmer",
+    "isAvalanche": true
+  },
+  "30115": {
+    "name": "dfk #53935",
+    "isAvalanche": true
+  },
+  "30116": {
+    "name": "harmony #1666600000",
+    "isAvalanche": false
+  },
+  "30118": {
+    "name": "dexalot #432204",
+    "isAvalanche": true
+  },
+  "30125": {
+    "name": "celo #42220",
+    "isAvalanche": false
+  },
+  "30126": {
+    "name": "moonbeam #1284",
+    "isAvalanche": false
+  },
+  "30138": {
+    "name": "fuse #122",
+    "isAvalanche": false
+  },
+  "30145": {
+    "name": "gnosis #100",
+    "isAvalanche": false
+  },
+  "30148": {
+    "name": "shrapnel #2044",
+    "isAvalanche": true
+  },
+  "30149": {
+    "name": "dos #7979",
+    "isAvalanche": true
+  },
+  "30150": {
+    "name": "klaytn #8217",
+    "isAvalanche": false
+  },
+  "30151": {
+    "name": "metis #1088",
+    "isAvalanche": false
+  },
+  "30152": {
+    "name": "intain",
+    "isAvalanche": true
+  },
+  "30153": {
+    "name": "coredao #1116",
+    "isAvalanche": false
+  },
+  "30154": {
+    "name": "goerli #11155111",
+    "isAvalanche": false
+  },
+  "30155": {
+    "name": "okx #66",
+    "isAvalanche": false
+  },
+  "30158": {
+    "name": "zkevm #1101",
+    "isAvalanche": false
+  },
+  "30159": {
+    "name": "canto #7700",
+    "isAvalanche": false
+  },
+  "30161": {
+    "name": "sepolia #11155111",
+    "isAvalanche": false
+  },
+  "30165": {
+    "name": "zksync #324",
+    "isAvalanche": false
+  },
+  "30167": {
+    "name": "moonriver #1285",
+    "isAvalanche": false
+  },
+  "30168": {
+    "name": "solana #101",
+    "isAvalanche": false
+  },
+  "30173": {
+    "name": "tenet #1559",
+    "isAvalanche": false
+  },
+  "30175": {
+    "name": "nova #42170",
+    "isAvalanche": false
+  },
+  "30176": {
+    "name": "meter #82",
+    "isAvalanche": false
+  },
+  "30177": {
+    "name": "kava #2222",
+    "isAvalanche": false
+  },
+  "30181": {
+    "name": "mantle #5000",
+    "isAvalanche": false
+  },
+  "30182": {
+    "name": "hubble #1992",
+    "isAvalanche": false
+  },
+  "30183": {
+    "name": "linea #59144",
+    "isAvalanche": false
+  },
+  "30184": {
+    "name": "base #8453",
+    "isAvalanche": false
+  },
+  "30195": {
+    "name": "zora #7777777",
+    "isAvalanche": false
+  },
+  "30196": {
+    "name": "tomo #88",
+    "isAvalanche": false
+  },
+  "30197": {
+    "name": "loot #5151706",
+    "isAvalanche": false
+  },
+  "30198": {
+    "name": "beam #4337",
+    "isAvalanche": true
+  },
+  "30199": {
+    "name": "telos #40",
+    "isAvalanche": false
+  },
+  "30202": {
+    "name": "opbnb #204",
+    "isAvalanche": false
+  },
+  "30210": {
+    "name": "astar #592",
+    "isAvalanche": false
+  },
+  "30211": {
+    "name": "aurora #1313161554",
+    "isAvalanche": false
+  },
+  "30212": {
+    "name": "conflux #1030",
+    "isAvalanche": false
+  },
+  "30213": {
+    "name": "orderly #291",
+    "isAvalanche": false
+  },
+  "30214": {
+    "name": "scroll #534352",
+    "isAvalanche": false
+  },
+  "30215": {
+    "name": "eon #7332",
+    "isAvalanche": false
+  },
+  "30216": {
+    "name": "xpla #37",
+    "isAvalanche": false
+  },
+  "30217": {
+    "name": "manta #169",
+    "isAvalanche": false
+  },
+  "30218": {
+    "name": "pgn #424",
+    "isAvalanche": false
+  },
+  "30230": {
+    "name": "shimmer #148",
+    "isAvalanche": false
+  },
+  "30234": {
+    "name": "bb1 #2525",
+    "isAvalanche": false
+  },
+  "30235": {
+    "name": "rarible #1380012617",
+    "isAvalanche": false
+  },
+  "30236": {
+    "name": "xai #660279",
+    "isAvalanche": false
+  },
+  "30237": {
+    "name": "real #111188",
+    "isAvalanche": false
+  },
+  "30238": {
+    "name": "tiltyard #710420",
+    "isAvalanche": true
+  },
+  "30243": {
+    "name": "blast #81457",
+    "isAvalanche": false
+  },
+  "30255": {
+    "name": "fraxtal #252",
+    "isAvalanche": false
+  },
+  "30257": {
+    "name": "zkatana #3776",
+    "isAvalanche": false
+  },
+  "30260": {
+    "name": "mode #34443",
+    "isAvalanche": false
+  },
+  "30263": {
+    "name": "masa #13396",
+    "isAvalanche": true
+  },
+  "30265": {
+    "name": "homeverse #19011",
+    "isAvalanche": false
+  },
+  "30266": {
+    "name": "merlin #4200",
+    "isAvalanche": false
+  },
+  "30267": {
+    "name": "degen #666666666",
+    "isAvalanche": false
+  },
+  "30273": {
+    "name": "skale #2046399126",
+    "isAvalanche": false
+  },
+  "30274": {
+    "name": "xlayer #196",
+    "isAvalanche": false
+  },
+  "30278": {
+    "name": "sanko #1996",
+    "isAvalanche": false
+  },
+  "30279": {
+    "name": "bob #60808",
+    "isAvalanche": false
+  },
+  "30280": {
+    "name": "sei #1329",
+    "isAvalanche": false
+  },
+  "30282": {
+    "name": "ebi #98881",
+    "isAvalanche": false
+  },
+  "30283": {
+    "name": "cyber #7560",
+    "isAvalanche": false
+  },
+  "30284": {
+    "name": "iota #8822",
+    "isAvalanche": false
+  },
+  "30285": {
+    "name": "joc #81",
+    "isAvalanche": false
+  },
+  "30290": {
+    "name": "taiko #167000",
+    "isAvalanche": false
+  },
+  "30291": {
+    "name": "xchain #94524",
+    "isAvalanche": false
+  },
+  "30292": {
+    "name": "etherlink #42793",
+    "isAvalanche": false
+  },
+  "30293": {
+    "name": "bouncebit #6001",
+    "isAvalanche": false
+  },
+  "30294": {
+    "name": "gravity #1625",
+    "isAvalanche": false
+  },
+  "30295": {
+    "name": "flare #14",
+    "isAvalanche": false
+  },
+  "30301": {
+    "name": "zklink #810180",
+    "isAvalanche": false
+  },
+  "30302": {
+    "name": "peaq #3338",
+    "isAvalanche": false
+  },
+  "30303": {
+    "name": "zircuit #48900",
+    "isAvalanche": false
+  },
+  "30309": {
+    "name": "lightlink #1890",
+    "isAvalanche": false
+  },
+  "30311": {
+    "name": "lyra #957",
+    "isAvalanche": false
+  },
+  "30312": {
+    "name": "ape #33139",
+    "isAvalanche": false
+  },
+  "30313": {
+    "name": "reya #1729",
+    "isAvalanche": false
+  },
+  "30314": {
+    "name": "bitlayer #200901",
+    "isAvalanche": false
+  },
+  "30315": {
+    "name": "dm2verse #68770",
+    "isAvalanche": false
+  },
+  "30316": {
+    "name": "hedera #295",
+    "isAvalanche": false
+  },
+  "30317": {
+    "name": "bevm #11501",
+    "isAvalanche": false
+  },
+  "30318": {
+    "name": "plume #98865",
+    "isAvalanche": false
+  },
+  "30319": {
+    "name": "worldchain #480",
+    "isAvalanche": false
+  },
+  "30320": {
+    "name": "unichain #130",
+    "isAvalanche": false
+  },
+  "30321": {
+    "name": "lisk #1135",
+    "isAvalanche": false
+  },
+  "30322": {
+    "name": "morph #2818",
+    "isAvalanche": false
+  },
+  "30323": {
+    "name": "codex #81224",
+    "isAvalanche": false
+  },
+  "30324": {
+    "name": "abstract #2741",
+    "isAvalanche": false
+  },
+  "30325": {
+    "name": "movement",
+    "isAvalanche": false
+  },
+  "30326": {
+    "name": "initia",
+    "isAvalanche": false
+  },
+  "30327": {
+    "name": "superposition #55244",
+    "isAvalanche": false
+  },
+  "30328": {
+    "name": "edu #41923",
+    "isAvalanche": false
+  },
+  "30329": {
+    "name": "hemi #43111",
+    "isAvalanche": false
+  },
+  "30330": {
+    "name": "islander #1480",
+    "isAvalanche": false
+  },
+  "30331": {
+    "name": "mp1 #21000000",
+    "isAvalanche": false
+  },
+  "30332": {
+    "name": "sonic #146",
+    "isAvalanche": false
+  },
+  "30333": {
+    "name": "rootstock #30",
+    "isAvalanche": false
+  },
+  "30334": {
+    "name": "sophon #50104",
+    "isAvalanche": false
+  },
+  "30335": {
+    "name": "swell #1923",
+    "isAvalanche": false
+  },
+  "30336": {
+    "name": "flow #747",
+    "isAvalanche": false
+  },
+  "30337": {
+    "name": "bl4",
+    "isAvalanche": false
+  },
+  "30338": {
+    "name": "bl5",
+    "isAvalanche": false
+  },
+  "30339": {
+    "name": "ink #57073",
+    "isAvalanche": false
+  },
+  "30340": {
+    "name": "soneium #1868",
+    "isAvalanche": false
+  },
+  "30341": {
+    "name": "space #8227",
+    "isAvalanche": true
+  },
+  "30342": {
+    "name": "glue #1300",
+    "isAvalanche": false
+  },
+  "30343": {
+    "name": "ton",
+    "isAvalanche": false
+  },
+  "30359": {
+    "name": "cronosevm #25",
+    "isAvalanche": false
+  },
+  "30360": {
+    "name": "cronoszkevm #388",
+    "isAvalanche": false
+  },
+  "30361": {
+    "name": "goat #2345",
+    "isAvalanche": false
+  },
+  "30362": {
+    "name": "bera #80094",
+    "isAvalanche": false
+  },
+  "30363": {
+    "name": "bahamut #5165",
+    "isAvalanche": false
+  },
+  "30364": {
+    "name": "story #1514",
+    "isAvalanche": false
+  },
+  "30365": {
+    "name": "xdc #50",
+    "isAvalanche": false
+  },
+  "30366": {
+    "name": "concrete #12739",
+    "isAvalanche": false
+  },
+  "30367": {
+    "name": "hyperliquid #999",
+    "isAvalanche": false
+  },
+  "30369": {
+    "name": "nibiru #6900",
+    "isAvalanche": false
+  },
+  "30370": {
+    "name": "plumephoenix #98866",
+    "isAvalanche": false
+  },
+  "30371": {
+    "name": "gunz #43419",
+    "isAvalanche": true
+  },
+  "30372": {
+    "name": "animechain #69000",
+    "isAvalanche": false
+  },
+  "30373": {
+    "name": "lens #232",
+    "isAvalanche": false
+  },
+  "30374": {
+    "name": "subtensorevm #964",
+    "isAvalanche": false
+  },
+  "30375": {
+    "name": "katana #747474",
+    "isAvalanche": false
+  },
+  "30376": {
+    "name": "botanix #3637",
+    "isAvalanche": false
+  },
+  "30377": {
+    "name": "tac #239",
+    "isAvalanche": false
+  },
+  "30379": {
+    "name": "silicon #2355",
+    "isAvalanche": false
+  },
+  "30380": {
+    "name": "somnia #50312",
+    "isAvalanche": false
+  },
+  "30381": {
+    "name": "camp #484",
+    "isAvalanche": false
+  },
+  "30382": {
+    "name": "humanity #6985385",
+    "isAvalanche": false
+  },
+  "30400": {
+    "name": "converge #432",
+    "isAvalanche": false
+  },
+  "30420": {
+    "name": "tron #728126428",
+    "isAvalanche": false
+  },
+  "40102": {
+    "name": "bsc-testnet #97",
+    "isAvalanche": false
+  },
+  "40106": {
+    "name": "fuji #43113",
+    "isAvalanche": false
+  },
+  "40108": {
+    "name": "aptos-testnet #2",
+    "isAvalanche": false
+  },
+  "40109": {
+    "name": "mumbai #80001",
+    "isAvalanche": false
+  },
+  "40112": {
+    "name": "fantom-testnet #4002",
+    "isAvalanche": false
+  },
+  "40115": {
+    "name": "dfk-testnet #335",
+    "isAvalanche": true
+  },
+  "40118": {
+    "name": "dexalot-testnet #432201",
+    "isAvalanche": true
+  },
+  "40121": {
+    "name": "goerli #11155111",
+    "isAvalanche": false
+  },
+  "40125": {
+    "name": "alfajores #44787",
+    "isAvalanche": false
+  },
+  "40126": {
+    "name": "moonbase #1287",
+    "isAvalanche": false
+  },
+  "40132": {
+    "name": "optimism-goerli #420",
+    "isAvalanche": false
+  },
+  "40133": {
+    "name": "harmony-testnet #1666900000",
+    "isAvalanche": false
+  },
+  "40138": {
+    "name": "fusespark #123",
+    "isAvalanche": false
+  },
+  "40143": {
+    "name": "arbitrum-goerli #421613",
+    "isAvalanche": false
+  },
+  "40145": {
+    "name": "chiado #10200",
+    "isAvalanche": false
+  },
+  "40150": {
+    "name": "klaytn-baobab #1001",
+    "isAvalanche": false
+  },
+  "40151": {
+    "name": "metis-goerli #599",
+    "isAvalanche": false
+  },
+  "40153": {
+    "name": "coredao-testnet #1115",
+    "isAvalanche": false
+  },
+  "40155": {
+    "name": "okx-testnet #65",
+    "isAvalanche": false
+  },
+  "40156": {
+    "name": "meter-testnet #83",
+    "isAvalanche": false
+  },
+  "40157": {
+    "name": "linea-goerli #59140",
+    "isAvalanche": false
+  },
+  "40158": {
+    "name": "zkevm-testnet #1442",
+    "isAvalanche": false
+  },
+  "40159": {
+    "name": "canto-testnet #7701",
+    "isAvalanche": false
+  },
+  "40160": {
+    "name": "base-goerli #84531",
+    "isAvalanche": false
+  },
+  "40161": {
+    "name": "sepolia #11155111",
+    "isAvalanche": false
+  },
+  "40164": {
+    "name": "shrapnel-testnet #2038",
+    "isAvalanche": true
+  },
+  "40165": {
+    "name": "zksync-testnet #280",
+    "isAvalanche": false
+  },
+  "40168": {
+    "name": "solana-testnet #103",
+    "isAvalanche": false
+  },
+  "40170": {
+    "name": "scroll-testnet #534351",
+    "isAvalanche": false
+  },
+  "40171": {
+    "name": "cathay-testnet",
+    "isAvalanche": false
+  },
+  "40172": {
+    "name": "kava-testnet #2221",
+    "isAvalanche": false
+  },
+  "40173": {
+    "name": "tenet-testnet #155",
+    "isAvalanche": false
+  },
+  "40177": {
+    "name": "blockgen-testnet",
+    "isAvalanche": false
+  },
+  "40178": {
+    "name": "beam-testnet #13337",
+    "isAvalanche": true
+  },
+  "40179": {
+    "name": "aavegotchi-testnet",
+    "isAvalanche": false
+  },
+  "40181": {
+    "name": "mantle-testnet #5001",
+    "isAvalanche": false
+  },
+  "40182": {
+    "name": "hubble-testnet",
+    "isAvalanche": false
+  },
+  "40195": {
+    "name": "zora-testnet #999",
+    "isAvalanche": false
+  },
+  "40196": {
+    "name": "tomo-testnet #89",
+    "isAvalanche": false
+  },
+  "40197": {
+    "name": "loot-testnet #9088912",
+    "isAvalanche": false
+  },
+  "40199": {
+    "name": "telos-testnet #41",
+    "isAvalanche": false
+  },
+  "40200": {
+    "name": "orderly-testnet #4460",
+    "isAvalanche": false
+  },
+  "40201": {
+    "name": "aurora-testnet #1313161555",
+    "isAvalanche": false
+  },
+  "40202": {
+    "name": "opbnb-testnet #5611",
+    "isAvalanche": false
+  },
+  "40203": {
+    "name": "shimmer-testnet #1073",
+    "isAvalanche": false
+  },
+  "40204": {
+    "name": "monad-testnet #10143",
+    "isAvalanche": false
+  },
+  "40206": {
+    "name": "spruce-testnet #424242",
+    "isAvalanche": false
+  },
+  "40207": {
+    "name": "pgjjtk-testnet",
+    "isAvalanche": false
+  },
+  "40208": {
+    "name": "oda-testnet #25",
+    "isAvalanche": false
+  },
+  "40209": {
+    "name": "kiwi-testnet #2037",
+    "isAvalanche": true
+  },
+  "40210": {
+    "name": "astar-testnet #81",
+    "isAvalanche": false
+  },
+  "40211": {
+    "name": "conflux-testnet #71",
+    "isAvalanche": false
+  },
+  "40215": {
+    "name": "eon-testnet #1663",
+    "isAvalanche": false
+  },
+  "40216": {
+    "name": "xpla-testnet #47",
+    "isAvalanche": false
+  },
+  "40217": {
+    "name": "holesky-testnet #17000",
+    "isAvalanche": false
+  },
+  "40218": {
+    "name": "injective-testnet #1738",
+    "isAvalanche": false
+  },
+  "40219": {
+    "name": "idex-testnet",
+    "isAvalanche": false
+  },
+  "40220": {
+    "name": "zkatana-testnet #1261120",
+    "isAvalanche": false
+  },
+  "40221": {
+    "name": "manta-testnet #3441005",
+    "isAvalanche": false
+  },
+  "40222": {
+    "name": "frame-testnet #68840142",
+    "isAvalanche": false
+  },
+  "40223": {
+    "name": "pgn-testnet #58008",
+    "isAvalanche": false
+  },
+  "40224": {
+    "name": "polygoncdk-testnet #686669576",
+    "isAvalanche": false
+  },
+  "40231": {
+    "name": "arbitrum-sepolia #421614",
+    "isAvalanche": false
+  },
+  "40232": {
+    "name": "optimism-sepolia #11155420",
+    "isAvalanche": false
+  },
+  "40234": {
+    "name": "venn-testnet",
+    "isAvalanche": false
+  },
+  "40235": {
+    "name": "rarible-testnet #1918988905",
+    "isAvalanche": false
+  },
+  "40236": {
+    "name": "gunzilla-testnet #49321",
+    "isAvalanche": true
+  },
+  "40238": {
+    "name": "rc1-testnet #1127469",
+    "isAvalanche": true
+  },
+  "40239": {
+    "name": "etherlink-testnet #128123",
+    "isAvalanche": false
+  },
+  "40241": {
+    "name": "kiwi2-testnet #2037",
+    "isAvalanche": true
+  },
+  "40242": {
+    "name": "joc-testnet #10081",
+    "isAvalanche": false
+  },
+  "40243": {
+    "name": "blast-testnet #168587773",
+    "isAvalanche": false
+  },
+  "40245": {
+    "name": "base-sepolia #84532",
+    "isAvalanche": false
+  },
+  "40246": {
+    "name": "mantle-sepolia #5003",
+    "isAvalanche": false
+  },
+  "40247": {
+    "name": "zkpolygon-sepolia #2442",
+    "isAvalanche": false
+  },
+  "40249": {
+    "name": "zora-sepolia #999999999",
+    "isAvalanche": false
+  },
+  "40251": {
+    "name": "xai-testnet #37714555429",
+    "isAvalanche": false
+  },
+  "40252": {
+    "name": "tangible-testnet",
+    "isAvalanche": false
+  },
+  "40255": {
+    "name": "fraxtal-testnet #2522",
+    "isAvalanche": false
+  },
+  "40256": {
+    "name": "bera-testnet #80084",
+    "isAvalanche": false
+  },
+  "40258": {
+    "name": "sei-testnet #713715",
+    "isAvalanche": false
+  },
+  "40259": {
+    "name": "exocore-testnet #233",
+    "isAvalanche": false
+  },
+  "40260": {
+    "name": "mode-testnet #919",
+    "isAvalanche": false
+  },
+  "40262": {
+    "name": "unreal-testnet #18233",
+    "isAvalanche": false
+  },
+  "40263": {
+    "name": "masa-testnet #103454",
+    "isAvalanche": true
+  },
+  "40264": {
+    "name": "merlin-testnet #686868",
+    "isAvalanche": false
+  },
+  "40265": {
+    "name": "homeverse-testnet #40875",
+    "isAvalanche": false
+  },
+  "40266": {
+    "name": "zkastar-testnet #6038361",
+    "isAvalanche": false
+  },
+  "40267": {
+    "name": "amoy-testnet #80002",
+    "isAvalanche": false
+  },
+  "40269": {
+    "name": "xlayer-testnet #195",
+    "isAvalanche": false
+  },
+  "40270": {
+    "name": "form-testnet #478",
+    "isAvalanche": false
+  },
+  "40271": {
+    "name": "ll1-testnet #1337",
+    "isAvalanche": false
+  },
+  "40272": {
+    "name": "mantasep-testnet #3441006",
+    "isAvalanche": false
+  },
+  "40273": {
+    "name": "skale-testnet #1444673419",
+    "isAvalanche": false
+  },
+  "40274": {
+    "name": "taiko-testnet #167009",
+    "isAvalanche": false
+  },
+  "40275": {
+    "name": "zircuit-testnet #48899",
+    "isAvalanche": false
+  },
+  "40277": {
+    "name": "olive-testnet #8101902",
+    "isAvalanche": false
+  },
+  "40278": {
+    "name": "sanko-testnet #1992",
+    "isAvalanche": false
+  },
+  "40279": {
+    "name": "bob-testnet #111",
+    "isAvalanche": false
+  },
+  "40280": {
+    "name": "cyber-testnet #111557560",
+    "isAvalanche": false
+  },
+  "40281": {
+    "name": "botanix-testnet #3636",
+    "isAvalanche": false
+  },
+  "40282": {
+    "name": "xchain-testnet #64002",
+    "isAvalanche": false
+  },
+  "40283": {
+    "name": "zklink-testnet #810181",
+    "isAvalanche": false
+  },
+  "40284": {
+    "name": "ebi-testnet #98882",
+    "isAvalanche": false
+  },
+  "40285": {
+    "name": "hedera-testnet #296",
+    "isAvalanche": false
+  },
+  "40286": {
+    "name": "dos-testnet #3939",
+    "isAvalanche": true
+  },
+  "40287": {
+    "name": "lineasep-testnet #59141",
+    "isAvalanche": false
+  },
+  "40288": {
+    "name": "besu1-testnet #1337",
+    "isAvalanche": false
+  },
+  "40289": {
+    "name": "bouncebit-testnet #6000",
+    "isAvalanche": false
+  },
+  "40291": {
+    "name": "bartio #80084",
+    "isAvalanche": false
+  },
+  "40292": {
+    "name": "metissep-testnet #59902",
+    "isAvalanche": false
+  },
+  "40294": {
+    "name": "flare-testnet #114",
+    "isAvalanche": false
+  },
+  "40295": {
+    "name": "camp-testnet #325000",
+    "isAvalanche": false
+  },
+  "40296": {
+    "name": "glue-testnet #1300",
+    "isAvalanche": false
+  },
+  "40297": {
+    "name": "opencampus-testnet #656476",
+    "isAvalanche": false
+  },
+  "40298": {
+    "name": "vanguard-testnet #78600",
+    "isAvalanche": false
+  },
+  "40299": {
+    "name": "peaq-testnet #9990",
+    "isAvalanche": false
+  },
+  "40300": {
+    "name": "lif3-testnet #1811",
+    "isAvalanche": false
+  },
+  "40301": {
+    "name": "fi-testnet #18026",
+    "isAvalanche": false
+  },
+  "40304": {
+    "name": "plume-testnet #161221135",
+    "isAvalanche": false
+  },
+  "40305": {
+    "name": "zksync-sepolia #300",
+    "isAvalanche": false
+  },
+  "40306": {
+    "name": "curtis-testnet #33111",
+    "isAvalanche": false
+  },
+  "40307": {
+    "name": "iota-testnet #1075",
+    "isAvalanche": false
+  },
+  "40308": {
+    "name": "lyra-testnet #901",
+    "isAvalanche": false
+  },
+  "40309": {
+    "name": "lightlink-testnet #1891",
+    "isAvalanche": false
+  },
+  "40311": {
+    "name": "codex-testnet #6513784",
+    "isAvalanche": false
+  },
+  "40313": {
+    "name": "abstract-testnet #11124",
+    "isAvalanche": false
+  },
+  "40315": {
+    "name": "story-testnet #1513",
+    "isAvalanche": false
+  },
+  "40318": {
+    "name": "root-testnet #7672",
+    "isAvalanche": false
+  },
+  "40319": {
+    "name": "reya-testnet #89346162",
+    "isAvalanche": false
+  },
+  "40320": {
+    "name": "bitlayer-testnet #200810",
+    "isAvalanche": false
+  },
+  "40321": {
+    "name": "dm2verse-testnet #68775",
+    "isAvalanche": false
+  },
+  "40322": {
+    "name": "morph-testnet #2810",
+    "isAvalanche": false
+  },
+  "40323": {
+    "name": "ozean-testnet #7849306",
+    "isAvalanche": false
+  },
+  "40324": {
+    "name": "bevm-testnet #11503",
+    "isAvalanche": false
+  },
+  "40325": {
+    "name": "movement-testnet",
+    "isAvalanche": false
+  },
+  "40326": {
+    "name": "initia-testnet",
+    "isAvalanche": false
+  },
+  "40327": {
+    "name": "lisk-testnet #4202",
+    "isAvalanche": false
+  },
+  "40328": {
+    "name": "kevnet-testnet #1301",
+    "isAvalanche": false
+  },
+  "40329": {
+    "name": "plume2-testnet #18230",
+    "isAvalanche": false
+  },
+  "40330": {
+    "name": "ble-testnet #52085143",
+    "isAvalanche": false
+  },
+  "40331": {
+    "name": "bl2-testnet #71461164656",
+    "isAvalanche": false
+  },
+  "40333": {
+    "name": "unichain-testnet #1301",
+    "isAvalanche": false
+  },
+  "40334": {
+    "name": "minato-testnet #1946",
+    "isAvalanche": false
+  },
+  "40335": {
+    "name": "worldcoin-testnet #4801",
+    "isAvalanche": false
+  },
+  "40336": {
+    "name": "superposition-testnet #98985",
+    "isAvalanche": false
+  },
+  "40337": {
+    "name": "otherworld-testnet #48795",
+    "isAvalanche": true
+  },
+  "40338": {
+    "name": "hemi-testnet #743111",
+    "isAvalanche": false
+  },
+  "40339": {
+    "name": "gameswift-testnet #10888",
+    "isAvalanche": false
+  },
+  "40340": {
+    "name": "odyssey-testnet #1516",
+    "isAvalanche": false
+  },
+  "40341": {
+    "name": "sophon-testnet #531050104",
+    "isAvalanche": false
+  },
+  "40342": {
+    "name": "moksha-testnet #14800",
+    "isAvalanche": false
+  },
+  "40343": {
+    "name": "ton-testnet",
+    "isAvalanche": false
+  },
+  "40344": {
+    "name": "citrea-testnet #5115",
+    "isAvalanche": false
+  },
+  "40345": {
+    "name": "mp1-testnet #21000001",
+    "isAvalanche": false
+  },
+  "40346": {
+    "name": "bl3-testnet #80000",
+    "isAvalanche": false
+  },
+  "40347": {
+    "name": "bahamut-testnet #2552",
+    "isAvalanche": false
+  },
+  "40348": {
+    "name": "treasure-testnet #978658",
+    "isAvalanche": false
+  },
+  "40349": {
+    "name": "sonic-testnet #57054",
+    "isAvalanche": false
+  },
+  "40350": {
+    "name": "rootstock-testnet #31",
+    "isAvalanche": false
+  },
+  "40351": {
+    "name": "flow-testnet #545",
+    "isAvalanche": false
+  },
+  "40353": {
+    "name": "swell-testnet #1924",
+    "isAvalanche": false
+  },
+  "40354": {
+    "name": "memecoreformicarium-testnet #43521",
+    "isAvalanche": false
+  },
+  "40355": {
+    "name": "apexfusionnexus-testnet #9070",
+    "isAvalanche": false
+  },
+  "40356": {
+    "name": "goat-testnet #48816",
+    "isAvalanche": false
+  },
+  "40357": {
+    "name": "bl6-testnet #996353",
+    "isAvalanche": false
+  },
+  "40358": {
+    "name": "ink-testnet #763373",
+    "isAvalanche": false
+  },
+  "40359": {
+    "name": "cronosevm-testnet #338",
+    "isAvalanche": false
+  },
+  "40360": {
+    "name": "cronoszkevm-testnet #240",
+    "isAvalanche": false
+  },
+  "40361": {
+    "name": "stabledevnet-testnet #2201",
+    "isAvalanche": false
+  },
+  "40362": {
+    "name": "hyperliquid-testnet #998",
+    "isAvalanche": false
+  },
+  "40369": {
+    "name": "nibiru-testnet #7210",
+    "isAvalanche": false
+  },
+  "40370": {
+    "name": "megaeth-testnet #6342",
+    "isAvalanche": false
+  },
+  "40371": {
+    "name": "bepolia-testnet #80069",
+    "isAvalanche": false
+  },
+  "40372": {
+    "name": "animechain-testnet #6900",
+    "isAvalanche": false
+  },
+  "40373": {
+    "name": "lens-testnet #37111",
+    "isAvalanche": false
+  },
+  "40374": {
+    "name": "stable-testnet #2201",
+    "isAvalanche": false
+  },
+  "40375": {
+    "name": "ondo-testnet #9000",
+    "isAvalanche": false
+  },
+  "40376": {
+    "name": "somnia-testnet #50312",
+    "isAvalanche": false
+  },
+  "40377": {
+    "name": "subtensorevm-testnet #945",
+    "isAvalanche": false
+  },
+  "40402": {
+    "name": "converge-testnet #52085144",
+    "isAvalanche": false
+  },
+  "40403": {
+    "name": "katana-testnet #129399",
+    "isAvalanche": false
+  },
+  "40404": {
+    "name": "tacspb-testnet #2391",
+    "isAvalanche": false
+  },
+  "40405": {
+    "name": "somniashannon-testnet #50312",
+    "isAvalanche": false
+  },
+  "40406": {
+    "name": "siliconsepolia-testnet #1414",
+    "isAvalanche": false
+  },
+  "40407": {
+    "name": "ethereal-testnet #657468",
+    "isAvalanche": false
+  },
+  "40408": {
+    "name": "injective1439-testnet #1439",
+    "isAvalanche": false
+  },
+  "40409": {
+    "name": "plasma-testnet #9746",
+    "isAvalanche": false
+  },
+  "40410": {
+    "name": "humanity-testnet #7080969",
+    "isAvalanche": false
+  },
+  "40411": {
+    "name": "plasma2-testnet #9746",
+    "isAvalanche": false
+  },
+  "40412": {
+    "name": "dinari-testnet #179205",
+    "isAvalanche": true
+  },
+  "40420": {
+    "name": "tron-testnet #2494104990",
+    "isAvalanche": false
+  },
+  "50102": {
+    "name": "bsc-sandbox #889156",
+    "isAvalanche": false
+  },
+  "50109": {
+    "name": "polygon-sandbox #8891137",
+    "isAvalanche": false
+  },
+  "50121": {
+    "name": "ethereum-sandbox #88911",
+    "isAvalanche": false
+  },
+  "50132": {
+    "name": "optimism-sandbox",
+    "isAvalanche": false
+  },
+  "50165": {
+    "name": "zksync-sandbox",
+    "isAvalanche": false
+  },
+  "50168": {
+    "name": "solana-sandbox",
+    "isAvalanche": false
+  },
+  "50231": {
+    "name": "arbitrum-sandbox",
+    "isAvalanche": false
+  },
+  "50343": {
+    "name": "ton-sandbox",
+    "isAvalanche": false
+  },
+  "50420": {
+    "name": "tron-sandbox",
+    "isAvalanche": false
+  }
+}

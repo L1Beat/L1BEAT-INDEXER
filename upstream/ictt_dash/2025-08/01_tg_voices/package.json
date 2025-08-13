@@ -1,0 +1,32 @@
+{
+  "name": "01_tg_voices",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "npx tsx --watch index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@google/genai": "^1.12.0",
+    "@telegraf/entity": "^0.6.0",
+    "@types/express": "^5.0.3",
+    "@types/mime-types": "^3.0.1",
+    "axios": "^1.11.0",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "mime": "^4.0.7",
+    "mime-types": "^3.0.1",
+    "telegraf": "^4.16.3",
+    "typescript": "^5.9.2"
+  },
+  "devDependencies": {
+    "@flydotio/dockerfile": "^0.7.10",
+    "@types/node": "^24.1.0"
+  }
+}

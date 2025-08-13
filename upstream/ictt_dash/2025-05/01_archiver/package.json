@@ -1,0 +1,23 @@
+{
+  "name": "block-archiver",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {},
+  "dependencies": {
+    "@mongodb-js/zstd": "^2.0.1",
+    "@types/pako": "^2.0.3",
+    "cbor2": "^1.12.0",
+    "dotenv": "^16.5.0",
+    "level": "^10.0.0",
+    "p-limit": "^6.2.0",
+    "p-throttle": "^7.0.0",
+    "pako": "^2.1.0",
+    "viem": "^2.9.0",
+    "zstd-codec": "^0.1.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0"
+  },
+  "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e"
+}

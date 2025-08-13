@@ -1,0 +1,856 @@
+[
+  {
+    "chainName": "dexalotevm",
+    "blockchainId": "21Ths5Afqi5r4PaoV8r8cruGZWhN11y5rxvy89K8px7pKy3P8E",
+    "evmChainId": 432204,
+    "rpcConfig": {
+      "rpcUrl": "https://subnets.avax.network/dexalot/mainnet/rpc",
+      "requestBatchSize": 10,
+      "maxConcurrentRequests": 8,
+      "rps": 2,
+      "rpcSupportsDebug": false,
+      "enableBatchSizeGrowth": true,
+      "blocksPerBatch": 300
+    }
+  },
+  {
+    "chainName": "Space",
+    "blockchainId": "22CN6x5LAPEkvLDdz4UwG3XXtZV69Su3bcspiYtkF9k5f9rcCt",
+    "evmChainId": 8227,
+    "rpcConfig": {
+      "rpcUrl": "http://65.21.140.118/ext/bc/22CN6x5LAPEkvLDdz4UwG3XXtZV69Su3bcspiYtkF9k5f9rcCt/rpc",
+      "requestBatchSize": 10,
+      "maxConcurrentRequests": 7,
+      "rps": 233,
+      "rpcSupportsDebug": false,
+      "enableBatchSizeGrowth": false,
+      "blocksPerBatch": 300
+    }
+  },
+  {
+    "chainName": "DOS Chain",
+    "blockchainId": "22v7AG7h6qaVxd4bLvAsSsg2LZ4RCn5iVYgFn7a2Fj1LCuYwjv",
+    "evmChainId": 7979,
+    "rpcConfig": {
+      "rpcUrl": "http://65.21.140.118/ext/bc/22v7AG7h6qaVxd4bLvAsSsg2LZ4RCn5iVYgFn7a2Fj1LCuYwjv/rpc",
+      "requestBatchSize": 10,
+      "maxConcurrentRequests": 7,
+      "rps": 233,
+      "rpcSupportsDebug": false,
+      "enableBatchSizeGrowth": false,
+      "blocksPerBatch": 300
+    }
+  },
+  {
+    "chainName": "coqnet",
+    "blockchainId": "23aQU1537YseCJmXW11XHjPra6bptBSps5D4xXupt8hN2QUeaG",
+    "evmChainId": 42069,
+    "rpcConfig": {
+      "rpcUrl": "http://65.21.140.118/ext/bc/23aQU1537YseCJmXW11XHjPra6bptBSps5D4xXupt8hN2QUeaG/rpc",
+      "requestBatchSize": 10,
+      "maxConcurrentRequests": 7,
+      "rps": 233,
+      "rpcSupportsDebug": false,
+      "enableBatchSizeGrowth": false,
+      "blocksPerBatch": 300
+    }
+  },
+  {
+    "chainName": "ienium",
+    "blockchainId": "23YwvXVh5LvSX32iMsLWRMYGCNoDLDrZye16i1KQQWZZFb3QzK",
+    "evmChainId": 2345,
+    "rpcConfig": {
+      "rpcUrl": "http://65.21.140.118/ext/bc/23YwvXVh5LvSX32iMsLWRMYGCNoDLDrZye16i1KQQWZZFb3QzK/rpc",
+      "requestBatchSize": 10,
+      "maxConcurrentRequests": 7,
+      "rps": 233,
+      "rpcSupportsDebug": false,
+      "enableBatchSizeGrowth": false,
+      "blocksPerBatch": 300
+    }
+  },
+  {
+    "chainName": "TITANL",
+    "blockchainId": "24gRTyzFmXUPebVwzQHuwU6RFeKHHDxRftRVaSAe7MHRXWxZ4S",
+    "evmChainId": 84358,
+    "rpcConfig": {
+      "rpcUrl": "https://subnets.avax.network/titan/mainnet/rpc",
+      "requestBatchSize": 10,
+      "maxConcurrentRequests": 8,
+      "rps": 2,
+      "rpcSupportsDebug": false,
+      "enableBatchSizeGrowth": true,
+      "blocksPerBatch": 300
+    }
+  },
+  {
+    "chainName": "HighOctane",
+    "blockchainId": "25friWasfe2pMdVHQAh5inDBz5XQq42a1V8DYqAGnxeKks5Bkp",
+    "evmChainId": 1853,
+    "rpcConfig": {
+      "rpcUrl": "http://65.21.140.118/ext/bc/25friWasfe2pMdVHQAh5inDBz5XQq42a1V8DYqAGnxeKks5Bkp/rpc",
+      "requestBatchSize": 10,
+      "maxConcurrentRequests": 7,
+      "rps": 233,
+      "rpcSupportsDebug": false,
+      "enableBatchSizeGrowth": false,
+      "blocksPerBatch": 300
+    }
+  },
+  {
+    "chainName": "CXChain",
+    "blockchainId": "25xjR3fvh7aXkxs36n1xRc3wLUAuqnS1wBxJD1BC4z3y6mHsEV",
+    "evmChainId": 737373,
+    "rpcConfig": {
+      "rpcUrl": "http://65.21.140.118/ext/bc/25xjR3fvh7aXkxs36n1xRc3wLUAuqnS1wBxJD1BC4z3y6mHsEV/rpc",
+      "requestBatchSize": 10,
+      "maxConcurrentRequests": 7,
+      "rps": 233,
+      "rpcSupportsDebug": false,
+      "enableBatchSizeGrowth": false,
+      "blocksPerBatch": 300
+    }
+  },
+  {
+    "chainName": "KOROSHIL",
+    "blockchainId": "26Ee4Lm4R1bQbQLQU66exLiWgSC9qdDPJCvFpzVsd3raLrHBGZ",
+    "evmChainId": 379,
+    "rpcConfig": {
+      "rpcUrl": "https://subnets.avax.network/koroshi/mainnet/rpc",
+      "requestBatchSize": 10,
+      "maxConcurrentRequests": 8,
+      "rps": 2,
+      "rpcSupportsDebug": false,
+      "enableBatchSizeGrowth": true,
+      "blocksPerBatch": 300
+    }
+  },
+  {
+    "chainName": "Letsbuyhealthcare",
+    "blockchainId": "29vwJsYDCuAHpCCGkvvWh8K2MiHAyCXYKUNobCMg4c7ZQvSkJu",
+    "evmChainId": 50776,
+    "rpcConfig": {
+      "rpcUrl": "https://subnets.avax.network/letsbuyhc/mainnet/rpc",
+      "requestBatchSize": 10,
+      "maxConcurrentRequests": 8,
+      "rps": 2,
+      "rpcSupportsDebug": false,
+      "enableBatchSizeGrowth": true,
+      "blocksPerBatch": 300
+    }
+  },
+  {
+    "chainName": "GOODCARE",
+    "blockchainId": "2AB5dDcGsw86kroZ81AZXzdez3CgA1x9uXkyQDhxr98hjrkVhu",
+    "evmChainId": 741741,
+    "rpcConfig": {
+      "rpcUrl": "http://65.21.140.118/ext/bc/2AB5dDcGsw86kroZ81AZXzdez3CgA1x9uXkyQDhxr98hjrkVhu/rpc",
+      "requestBatchSize": 10,
+      "maxConcurrentRequests": 7,
+      "rps": 233,
+      "rpcSupportsDebug": false,
+      "enableBatchSizeGrowth": false,
+      "blocksPerBatch": 300
+    }
+  },
+  {
+    "chainName": "NUMINEMainnet",
+    "blockchainId": "2c1BN4N9qEhNmW4yCpeLK24SfjFQLyS1Z7FtgRDaYxZWFUUKxf",
+    "evmChainId": 8021,
+    "rpcConfig": {
+      "rpcUrl": "http://65.21.140.118/ext/bc/2c1BN4N9qEhNmW4yCpeLK24SfjFQLyS1Z7FtgRDaYxZWFUUKxf/rpc",
+      "requestBatchSize": 10,
+      "maxConcurrentRequests": 7,
+      "rps": 233,
+      "rpcSupportsDebug": false,
+      "enableBatchSizeGrowth": false,
+      "blocksPerBatch": 300
+    }
+  },
+  {
+    "chainName": "Tiltyard",
+    "blockchainId": "2cJ7FyNoqigEGoM7m8p4PY7a33B2SQxV8P7VuUVJZ9y5otyqNS",
+    "evmChainId": 710420,
+    "rpcConfig": {
+      "rpcUrl": "http://65.21.140.118/ext/bc/2cJ7FyNoqigEGoM7m8p4PY7a33B2SQxV8P7VuUVJZ9y5otyqNS/rpc",
+      "requestBatchSize": 10,
+      "maxConcurrentRequests": 7,
+      "rps": 233,
+      "rpcSupportsDebug": false,
+      "enableBatchSizeGrowth": false,
+      "blocksPerBatch": 300
+    }
+  },
+  {
+    "chainName": "Marnisa",
+    "blockchainId": "2CLqZNxr9j7w6DDVZEixybcBhMrkUeB4Vff3HLrfF1fuS7M6FK",
+    "evmChainId": 5419,
+    "rpcConfig": {
+      "rpcUrl": "http://65.21.140.118/ext/bc/2CLqZNxr9j7w6DDVZEixybcBhMrkUeB4Vff3HLrfF1fuS7M6FK/rpc",
+      "requestBatchSize": 10,
+      "maxConcurrentRequests": 7,
+      "rps": 233,
+      "rpcSupportsDebug": false,
+      "enableBatchSizeGrowth": false,
+      "blocksPerBatch": 300
+    }
+  },
+  {
+    "chainName": "thegrowthprotocol",
+    "blockchainId": "2DnTLFrwyrvDDdWWzXBZqnNZXsHbLDGBU2kkrenaF5M5xFgbDY",
+    "evmChainId": 61587,
+    "rpcConfig": {
+      "rpcUrl": "https://subnets.avax.network/tgp/mainnet/rpc",
+      "requestBatchSize": 10,
+      "maxConcurrentRequests": 8,
+      "rps": 2,
+      "rpcSupportsDebug": false,
+      "enableBatchSizeGrowth": true,
+      "blocksPerBatch": 300
+    }
+  },
+  {
+    "chainName": "intersect",
+    "blockchainId": "2Ec9g5vbwwoy7MEyjmjjEjuS6FzaeToBm1KVbvDU6HeKsSNVTF",
+    "evmChainId": 1216,
+    "rpcConfig": {
+      "rpcUrl": "https://subnets.avax.network/intersect/mainnet/rpc",
+      "requestBatchSize": 10,
+      "maxConcurrentRequests": 8,
+      "rps": 2,
+      "rpcSupportsDebug": false,
+      "enableBatchSizeGrowth": true,
+      "blocksPerBatch": 300
+    }
+  },
+  {
+    "chainName": "QChain",
+    "blockchainId": "2GRw9HYnCxyVsr4P5pytpqcyRaymtnTuu1oZhuSWcP4DfJxojy",
+    "evmChainId": 12150,
+    "rpcConfig": {
+      "rpcUrl": "http://65.21.140.118/ext/bc/2GRw9HYnCxyVsr4P5pytpqcyRaymtnTuu1oZhuSWcP4DfJxojy/rpc",
+      "requestBatchSize": 10,
+      "maxConcurrentRequests": 7,
+      "rps": 233,
+      "rpcSupportsDebug": false,
+      "enableBatchSizeGrowth": false,
+      "blocksPerBatch": 300
+    }
+  },
+  {
+    "chainName": "Monsoon",
+    "blockchainId": "2iPUhy8pWRswFtPHHMbzH1rCprpjyWMHCs8RHtazJsmxFw92vK",
+    "evmChainId": 100610,
+    "rpcConfig": {
+      "rpcUrl": "http://65.21.140.118/ext/bc/2iPUhy8pWRswFtPHHMbzH1rCprpjyWMHCs8RHtazJsmxFw92vK/rpc",
+      "requestBatchSize": 10,
+      "maxConcurrentRequests": 7,
+      "rps": 233,
+      "rpcSupportsDebug": false,
+      "enableBatchSizeGrowth": false,
+      "blocksPerBatch": 300
+    }
+  },
+  {
+    "chainName": "FRQTALNETWORK",
+    "blockchainId": "2JepXG35p5i21VxbnPx1eWmu5Z5EutcSXVAtcisBBJPTYzAVmB",
+    "evmChainId": 62789,
+    "rpcConfig": {
+      "rpcUrl": "http://65.21.140.118/ext/bc/2JepXG35p5i21VxbnPx1eWmu5Z5EutcSXVAtcisBBJPTYzAVmB/rpc",
+      "requestBatchSize": 10,
+      "maxConcurrentRequests": 7,
+      "rps": 233,
+      "rpcSupportsDebug": false,
+      "enableBatchSizeGrowth": false,
+      "blocksPerBatch": 300
+    }
+  },
+  {
+    "chainName": "StepNetwork",
+    "blockchainId": "2jRZvKtXY5nyWTqRwFh1KMHGrCRxJoULu4r2CsayWRnjdDGbV1",
+    "evmChainId": 1234,
+    "rpcConfig": {
+      "rpcUrl": "https://rpc.step.network",
+      "requestBatchSize": 10,
+      "maxConcurrentRequests": 100,
+      "rps": 20,
+      "rpcSupportsDebug": false,
+      "enableBatchSizeGrowth": true,
+      "blocksPerBatch": 300
+    }
+  },
+  {
+    "chainName": "TradeXMarkets",
+    "blockchainId": "2L9oVyCkyqMgrwVS7CFkn21KSNWeD67dH6uzjw3LF6ErDhzAjK",
+    "evmChainId": 21024,
+    "rpcConfig": {
+      "rpcUrl": "http://65.21.140.118/ext/bc/2L9oVyCkyqMgrwVS7CFkn21KSNWeD67dH6uzjw3LF6ErDhzAjK/rpc",
+      "requestBatchSize": 10,
+      "maxConcurrentRequests": 7,
+      "rps": 233,
+      "rpcSupportsDebug": false,
+      "enableBatchSizeGrowth": false,
+      "blocksPerBatch": 300
+    }
+  },
+  {
+    "chainName": "TheLYLTYEconomy",
+    "blockchainId": "2Ldubr6779M2PWhY3ECsBx5kb85pGY4euCWZLdaaE9o7ocSHMC",
+    "evmChainId": 17177,
+    "rpcConfig": {
+      "rpcUrl": "http://65.21.140.118/ext/bc/2Ldubr6779M2PWhY3ECsBx5kb85pGY4euCWZLdaaE9o7ocSHMC/rpc",
+      "requestBatchSize": 10,
+      "maxConcurrentRequests": 7,
+      "rps": 233,
+      "rpcSupportsDebug": false,
+      "enableBatchSizeGrowth": false,
+      "blocksPerBatch": 300
+    }
+  },
+  {
+    "chainName": "gunz",
+    "blockchainId": "2M47TxWHGnhNtq6pM5zPXdATBtuqubxn5EPFgFmEawCQr9WFML",
+    "evmChainId": 43419,
+    "rpcConfig": {
+      "rpcUrl": "http://65.21.140.118/ext/bc/2M47TxWHGnhNtq6pM5zPXdATBtuqubxn5EPFgFmEawCQr9WFML/rpc",
+      "requestBatchSize": 10,
+      "maxConcurrentRequests": 7,
+      "rps": 233,
+      "rpcSupportsDebug": false,
+      "enableBatchSizeGrowth": false,
+      "blocksPerBatch": 300
+    }
+  },
+  {
+    "chainName": "numbersevm",
+    "blockchainId": "2PDRxzc6jMbZSTLb3sufkVszgQc2jtDnYZGtDTAAfom1CTwPsE",
+    "evmChainId": 10507,
+    "rpcConfig": {
+      "rpcUrl": "http://65.21.140.118/ext/bc/2PDRxzc6jMbZSTLb3sufkVszgQc2jtDnYZGtDTAAfom1CTwPsE/rpc",
+      "requestBatchSize": 10,
+      "maxConcurrentRequests": 7,
+      "rps": 233,
+      "rpcSupportsDebug": false,
+      "enableBatchSizeGrowth": false,
+      "blocksPerBatch": 300
+    }
+  },
+  {
+    "chainName": "Blockticity",
+    "blockchainId": "2pV5K35V1ohNSYhRU3z1Bud2oZys9bak7QYcmvbVvnieh4FJXc",
+    "evmChainId": 28530,
+    "rpcConfig": {
+      "rpcUrl": "http://65.21.140.118/ext/bc/2pV5K35V1ohNSYhRU3z1Bud2oZys9bak7QYcmvbVvnieh4FJXc/rpc",
+      "requestBatchSize": 10,
+      "maxConcurrentRequests": 7,
+      "rps": 233,
+      "rpcSupportsDebug": false,
+      "enableBatchSizeGrowth": false,
+      "blocksPerBatch": 300
+    }
+  },
+  {
+    "chainName": "C-Chain",
+    "blockchainId": "2q9e4r6Mu3U68nU1fYjgbR6JvwrRx36CohpAX5UQxse55x1Q5",
+    "evmChainId": 43114,
+    "rpcConfig": {
+      "rpcUrl": "https://api.avax.network/ext/bc/C/rpc",
+      "requestBatchSize": 10,
+      "maxConcurrentRequests": 100,
+      "rps": 20,
+      "rpcSupportsDebug": false,
+      "enableBatchSizeGrowth": true,
+      "blocksPerBatch": 300
+    }
+  },
+  {
+    "chainName": "BLITZ SUBNET",
+    "blockchainId": "2QGraMRcH8gEnQbLviM4ykgyY31jFfLhaEtEvPHk8q8pPfe7Kj",
+    "evmChainId": 1344,
+    "rpcConfig": {
+      "rpcUrl": "http://65.21.140.118/ext/bc/2QGraMRcH8gEnQbLviM4ykgyY31jFfLhaEtEvPHk8q8pPfe7Kj/rpc",
+      "requestBatchSize": 10,
+      "maxConcurrentRequests": 7,
+      "rps": 233,
+      "rpcSupportsDebug": false,
+      "enableBatchSizeGrowth": false,
+      "blocksPerBatch": 300
+    }
+  },
+  {
+    "chainName": "EthixETX",
+    "blockchainId": "2R87vuaaRZRxPLdvdMEpo7fH9qyyNnP34h4nyxuwq8sKkQ1GaE",
+    "evmChainId": 389,
+    "rpcConfig": {
+      "rpcUrl": "http://65.21.140.118/ext/bc/2R87vuaaRZRxPLdvdMEpo7fH9qyyNnP34h4nyxuwq8sKkQ1GaE/rpc",
+      "requestBatchSize": 10,
+      "maxConcurrentRequests": 7,
+      "rps": 233,
+      "rpcSupportsDebug": false,
+      "enableBatchSizeGrowth": false,
+      "blocksPerBatch": 300
+    }
+  },
+  {
+    "chainName": "Blaze",
+    "blockchainId": "2SfshBPqRJexmqdWBY2xYSTq2Rp2dDisuax7nQB6GyNqPjSWWY",
+    "evmChainId": 46975,
+    "rpcConfig": {
+      "rpcUrl": "http://65.21.140.118/ext/bc/2SfshBPqRJexmqdWBY2xYSTq2Rp2dDisuax7nQB6GyNqPjSWWY/rpc",
+      "requestBatchSize": 10,
+      "maxConcurrentRequests": 7,
+      "rps": 233,
+      "rpcSupportsDebug": false,
+      "enableBatchSizeGrowth": false,
+      "blocksPerBatch": 300
+    }
+  },
+  {
+    "chainName": "shrapnelnetwork",
+    "blockchainId": "2tdRBvNEUhoD6ZWYF9b5NBdj5hHwWPfvSq1EnzvV8QU2XjLNy9",
+    "evmChainId": 2044,
+    "rpcConfig": {
+      "rpcUrl": "https://subnets.avax.network/shrapnel/mainnet/rpc",
+      "requestBatchSize": 10,
+      "maxConcurrentRequests": 8,
+      "rps": 2,
+      "rpcSupportsDebug": false,
+      "enableBatchSizeGrowth": true,
+      "blocksPerBatch": 300
+    }
+  },
+  {
+    "chainName": "Hatchyverse",
+    "blockchainId": "2tig763SuFas5WGk6vsjj8uWzTwq8DKvAN8YgeouwFZe28XjNm",
+    "evmChainId": 8198,
+    "rpcConfig": {
+      "rpcUrl": "http://65.21.140.118/ext/bc/2tig763SuFas5WGk6vsjj8uWzTwq8DKvAN8YgeouwFZe28XjNm/rpc",
+      "requestBatchSize": 10,
+      "maxConcurrentRequests": 7,
+      "rps": 233,
+      "rpcSupportsDebug": false,
+      "enableBatchSizeGrowth": false,
+      "blocksPerBatch": 300
+    }
+  },
+  {
+    "chainName": "beam",
+    "blockchainId": "2tmrrBo1Lgt1mzzvPSFt73kkQKFas5d1AP88tv9cicwoFp8BSn",
+    "evmChainId": 4337,
+    "rpcConfig": {
+      "rpcUrl": "https://subnets.avax.network/beam/mainnet/rpc",
+      "requestBatchSize": 10,
+      "maxConcurrentRequests": 8,
+      "rps": 2,
+      "rpcSupportsDebug": false,
+      "enableBatchSizeGrowth": true,
+      "blocksPerBatch": 300
+    }
+  },
+  {
+    "chainName": "UPTN",
+    "blockchainId": "2tsFdSeemtqK9vaPgjPrcwvKFKPw1T6PHufaZ26tKbAFSkXPTE",
+    "evmChainId": 6119,
+    "rpcConfig": {
+      "rpcUrl": "https://node-api.uptn.io/v1/ext/rpc",
+      "requestBatchSize": 10,
+      "maxConcurrentRequests": 100,
+      "rps": 20,
+      "rpcSupportsDebug": false,
+      "enableBatchSizeGrowth": true,
+      "blocksPerBatch": 300
+    }
+  },
+  {
+    "chainName": "ULALO",
+    "blockchainId": "2uN4Y9JHkLeAJK85Y48LExpNnEiepf7VoZAtmjnwDSZzpZcNig",
+    "evmChainId": 237007,
+    "rpcConfig": {
+      "rpcUrl": "http://65.21.140.118/ext/bc/2uN4Y9JHkLeAJK85Y48LExpNnEiepf7VoZAtmjnwDSZzpZcNig/rpc",
+      "requestBatchSize": 10,
+      "maxConcurrentRequests": 7,
+      "rps": 233,
+      "rpcSupportsDebug": false,
+      "enableBatchSizeGrowth": false,
+      "blocksPerBatch": 300
+    }
+  },
+  {
+    "chainName": "lucid",
+    "blockchainId": "2vmiAUCfkXd67jEq2GQhzVgTfNs3tpUP89agEEvnRK7urMVpjb",
+    "evmChainId": 62521,
+    "rpcConfig": {
+      "rpcUrl": "http://65.21.140.118/ext/bc/2vmiAUCfkXd67jEq2GQhzVgTfNs3tpUP89agEEvnRK7urMVpjb/rpc",
+      "requestBatchSize": 10,
+      "maxConcurrentRequests": 7,
+      "rps": 233,
+      "rpcSupportsDebug": false,
+      "enableBatchSizeGrowth": false,
+      "blocksPerBatch": 300
+    }
+  },
+  {
+    "chainName": "deraalpha",
+    "blockchainId": "2XCTEc8CfNK9MtQWYMfgNt32QjZsZqq92LH7eTV5xY8YjY44du",
+    "evmChainId": 20250320,
+    "rpcConfig": {
+      "rpcUrl": "http://65.21.140.118/ext/bc/2XCTEc8CfNK9MtQWYMfgNt32QjZsZqq92LH7eTV5xY8YjY44du/rpc",
+      "requestBatchSize": 10,
+      "maxConcurrentRequests": 7,
+      "rps": 233,
+      "rpcSupportsDebug": false,
+      "enableBatchSizeGrowth": false,
+      "blocksPerBatch": 300
+    }
+  },
+  {
+    "chainName": "zerooneMainnet",
+    "blockchainId": "2Xj6iZeySuuUTZR5jYjhQ7yQ84q8AtDWnAJ2vS9BmmXBNJhYD1",
+    "evmChainId": 27827,
+    "rpcConfig": {
+      "rpcUrl": "http://65.21.140.118/ext/bc/2Xj6iZeySuuUTZR5jYjhQ7yQ84q8AtDWnAJ2vS9BmmXBNJhYD1/rpc",
+      "requestBatchSize": 10,
+      "maxConcurrentRequests": 7,
+      "rps": 233,
+      "rpcSupportsDebug": false,
+      "enableBatchSizeGrowth": false,
+      "blocksPerBatch": 300
+    }
+  },
+  {
+    "chainName": "SSHIVANSH",
+    "blockchainId": "2XWN3PW4Qdjw3AtG6eqH8PCzj49G9Qay6SLNWbGLjsDF1qPgsW",
+    "evmChainId": 222345,
+    "rpcConfig": {
+      "rpcUrl": "http://65.21.140.118/ext/bc/2XWN3PW4Qdjw3AtG6eqH8PCzj49G9Qay6SLNWbGLjsDF1qPgsW/rpc",
+      "requestBatchSize": 10,
+      "maxConcurrentRequests": 7,
+      "rps": 233,
+      "rpcSupportsDebug": false,
+      "enableBatchSizeGrowth": false,
+      "blocksPerBatch": 300
+    }
+  },
+  {
+    "chainName": "even",
+    "blockchainId": "2YnwDMW9shSuV6nuYpAhm3DE2KvYJP2GFDvUde6XG8jE5gxvpL",
+    "evmChainId": 33345,
+    "rpcConfig": {
+      "rpcUrl": "http://65.21.140.118/ext/bc/2YnwDMW9shSuV6nuYpAhm3DE2KvYJP2GFDvUde6XG8jE5gxvpL/rpc",
+      "requestBatchSize": 10,
+      "maxConcurrentRequests": 7,
+      "rps": 233,
+      "rpcSupportsDebug": false,
+      "enableBatchSizeGrowth": false,
+      "blocksPerBatch": 300
+    }
+  },
+  {
+    "chainName": "oumla",
+    "blockchainId": "3ZtS5VvsATbGWZhs2ymHNCmVkRVwW3QxhwbTtwxWK3XXVopsr",
+    "evmChainId": 58166,
+    "rpcConfig": {
+      "rpcUrl": "http://65.21.140.118/ext/bc/3ZtS5VvsATbGWZhs2ymHNCmVkRVwW3QxhwbTtwxWK3XXVopsr/rpc",
+      "requestBatchSize": 10,
+      "maxConcurrentRequests": 7,
+      "rps": 233,
+      "rpcSupportsDebug": false,
+      "enableBatchSizeGrowth": false,
+      "blocksPerBatch": 300
+    }
+  },
+  {
+    "chainName": "TixChain",
+    "blockchainId": "Bb5XKrQoBT6ypFmFUppAqfSmKCqcqYwjGCn3hHS6gibRTjiDj",
+    "evmChainId": 13790,
+    "rpcConfig": {
+      "rpcUrl": "http://65.21.140.118/ext/bc/Bb5XKrQoBT6ypFmFUppAqfSmKCqcqYwjGCn3hHS6gibRTjiDj/rpc",
+      "requestBatchSize": 10,
+      "maxConcurrentRequests": 7,
+      "rps": 233,
+      "rpcSupportsDebug": false,
+      "enableBatchSizeGrowth": false,
+      "blocksPerBatch": 300
+    }
+  },
+  {
+    "chainName": "StraitsX",
+    "blockchainId": "EJ4DyXHe4ydhsLLMiDPsHtoq5RDqgyao6Lwb9znKhs59q4NQx",
+    "evmChainId": 5566,
+    "rpcConfig": {
+      "rpcUrl": "http://65.21.140.118/ext/bc/EJ4DyXHe4ydhsLLMiDPsHtoq5RDqgyao6Lwb9znKhs59q4NQx/rpc",
+      "requestBatchSize": 10,
+      "maxConcurrentRequests": 7,
+      "rps": 233,
+      "rpcSupportsDebug": false,
+      "enableBatchSizeGrowth": false,
+      "blocksPerBatch": 300
+    }
+  },
+  {
+    "chainName": "Lamina1Identity",
+    "blockchainId": "hR6djBP7uMGJnXrjdUic2rzvvuuMpqMWNb5us7j8xgmj6Ck2N",
+    "evmChainId": 10850,
+    "rpcConfig": {
+      "rpcUrl": "https://subnets.avax.network/lamina1id/mainnet/rpc",
+      "requestBatchSize": 10,
+      "maxConcurrentRequests": 8,
+      "rps": 2,
+      "rpcSupportsDebug": false,
+      "enableBatchSizeGrowth": true,
+      "blocksPerBatch": 300
+    }
+  },
+  {
+    "chainName": "PLYRPHI",
+    "blockchainId": "HUwWdyoExrb1HgVp5X5sh3AWqhYFnKkfXBfGmGL3qjDsnMoR4",
+    "evmChainId": 16180,
+    "rpcConfig": {
+      "rpcUrl": "http://65.21.140.118/ext/bc/HUwWdyoExrb1HgVp5X5sh3AWqhYFnKkfXBfGmGL3qjDsnMoR4/rpc",
+      "requestBatchSize": 10,
+      "maxConcurrentRequests": 7,
+      "rps": 233,
+      "rpcSupportsDebug": false,
+      "enableBatchSizeGrowth": false,
+      "blocksPerBatch": 300
+    }
+  },
+  {
+    "chainName": "bloodloop",
+    "blockchainId": "iNrFZ5vbEfURqFCQh8dF1AHvRfKnZ9gk9ksRgMHDKy4AfyYwA",
+    "evmChainId": 578,
+    "rpcConfig": {
+      "rpcUrl": "http://65.21.140.118/ext/bc/iNrFZ5vbEfURqFCQh8dF1AHvRfKnZ9gk9ksRgMHDKy4AfyYwA/rpc",
+      "requestBatchSize": 10,
+      "maxConcurrentRequests": 7,
+      "rps": 233,
+      "rpcSupportsDebug": false,
+      "enableBatchSizeGrowth": false,
+      "blocksPerBatch": 300
+    }
+  },
+  {
+    "chainName": "BnryMainnet",
+    "blockchainId": "J3MYb3rDARLmB7FrRybinyjKqVTqmerbCr9bAXDatrSaHiLxQ",
+    "evmChainId": 836,
+    "rpcConfig": {
+      "rpcUrl": "http://65.21.140.118/ext/bc/J3MYb3rDARLmB7FrRybinyjKqVTqmerbCr9bAXDatrSaHiLxQ/rpc",
+      "requestBatchSize": 10,
+      "maxConcurrentRequests": 7,
+      "rps": 233,
+      "rpcSupportsDebug": false,
+      "enableBatchSizeGrowth": false,
+      "blocksPerBatch": 300
+    }
+  },
+  {
+    "chainName": "PLAYA3ULL",
+    "blockchainId": "k2SFEZ2MZr9UGXiycnA1DdaLqZTKDaHK7WUXVLhJk5F9DD8r1",
+    "evmChainId": 3011,
+    "rpcConfig": {
+      "rpcUrl": "https://subnets.avax.network/playa3ull/mainnet/rpc",
+      "requestBatchSize": 10,
+      "maxConcurrentRequests": 8,
+      "rps": 2,
+      "rpcSupportsDebug": false,
+      "enableBatchSizeGrowth": true,
+      "blocksPerBatch": 300
+    }
+  },
+  {
+    "chainName": "Mirai",
+    "blockchainId": "Lgiwfx9L11MLt8RD5Aj7SZ5kEcWQz5NnyCc5hDd5k25J8LoxM",
+    "evmChainId": 2718,
+    "rpcConfig": {
+      "rpcUrl": "http://65.21.140.118/ext/bc/Lgiwfx9L11MLt8RD5Aj7SZ5kEcWQz5NnyCc5hDd5k25J8LoxM/rpc",
+      "requestBatchSize": 10,
+      "maxConcurrentRequests": 7,
+      "rps": 233,
+      "rpcSupportsDebug": false,
+      "enableBatchSizeGrowth": false,
+      "blocksPerBatch": 300
+    }
+  },
+  {
+    "chainName": "DFK Chain",
+    "blockchainId": "q2aTwKuyzgs8pynF7UXBZCU7DejbZbZ6EUyHr3JQzYgwNPUPi",
+    "evmChainId": 53935,
+    "rpcConfig": {
+      "rpcUrl": "https://subnets.avax.network/defi-kingdoms/dfk-chain/rpc",
+      "requestBatchSize": 10,
+      "maxConcurrentRequests": 8,
+      "rps": 2,
+      "rpcSupportsDebug": false,
+      "enableBatchSizeGrowth": true,
+      "blocksPerBatch": 300
+    }
+  },
+  {
+    "chainName": "BangoL",
+    "blockchainId": "QUmGffHpjgMeHJVobZDjwvFKAcP5Rs5FQsURJexDjKir2Ljp4",
+    "evmChainId": 5506,
+    "rpcConfig": {
+      "rpcUrl": "http://65.21.140.118/ext/bc/QUmGffHpjgMeHJVobZDjwvFKAcP5Rs5FQsURJexDjKir2Ljp4/rpc",
+      "requestBatchSize": 10,
+      "maxConcurrentRequests": 7,
+      "rps": 233,
+      "rpcSupportsDebug": false,
+      "enableBatchSizeGrowth": false,
+      "blocksPerBatch": 300
+    }
+  },
+  {
+    "chainName": "Pulsar",
+    "blockchainId": "QVbrD172sAF1TgCvN9DZG93nAd2YBGCJVZP4cngdEKCTy2F9v",
+    "evmChainId": 357,
+    "rpcConfig": {
+      "rpcUrl": "http://65.21.140.118/ext/bc/QVbrD172sAF1TgCvN9DZG93nAd2YBGCJVZP4cngdEKCTy2F9v/rpc",
+      "requestBatchSize": 10,
+      "maxConcurrentRequests": 7,
+      "rps": 233,
+      "rpcSupportsDebug": false,
+      "enableBatchSizeGrowth": false,
+      "blocksPerBatch": 300
+    }
+  },
+  {
+    "chainName": "Artery",
+    "blockchainId": "rBabVhbJKGcKTEpzm9PdpQ7ModsxNpYQZ6ALN6g9p5JKjqfw6",
+    "evmChainId": 4313,
+    "rpcConfig": {
+      "rpcUrl": "http://65.21.140.118/ext/bc/rBabVhbJKGcKTEpzm9PdpQ7ModsxNpYQZ6ALN6g9p5JKjqfw6/rpc",
+      "requestBatchSize": 10,
+      "maxConcurrentRequests": 7,
+      "rps": 233,
+      "rpcSupportsDebug": false,
+      "enableBatchSizeGrowth": false,
+      "blocksPerBatch": 300
+    }
+  },
+  {
+    "chainName": "FIFABlockchain",
+    "blockchainId": "SUDoK9P89PCcguskyof41fZexw7U3zubDP2DZpGf3HbFWwJ4E",
+    "evmChainId": 13322,
+    "rpcConfig": {
+      "rpcUrl": "http://65.21.140.118/ext/bc/SUDoK9P89PCcguskyof41fZexw7U3zubDP2DZpGf3HbFWwJ4E/rpc",
+      "requestBatchSize": 10,
+      "maxConcurrentRequests": 7,
+      "rps": 233,
+      "rpcSupportsDebug": false,
+      "enableBatchSizeGrowth": false,
+      "blocksPerBatch": 300
+    }
+  },
+  {
+    "chainName": "QRTMP",
+    "blockchainId": "tkfaNJvuPU8LxLjMRSP3XvoU7khfqZp1tU1peZ83zv9ysNxfZ",
+    "evmChainId": 24513,
+    "rpcConfig": {
+      "rpcUrl": "https://subnets.avax.network/qr0711t1mp/mainnet/rpc",
+      "requestBatchSize": 10,
+      "maxConcurrentRequests": 8,
+      "rps": 2,
+      "rpcSupportsDebug": false,
+      "enableBatchSizeGrowth": true,
+      "blocksPerBatch": 300
+    }
+  },
+  {
+    "chainName": "KALICHAIN",
+    "blockchainId": "TT2vQnjSF9VZfjaA5dB1VNKVdqkVCDzSncxaMcGVwYedGaMG3",
+    "evmChainId": 6533,
+    "rpcConfig": {
+      "rpcUrl": "http://65.21.140.118/ext/bc/TT2vQnjSF9VZfjaA5dB1VNKVdqkVCDzSncxaMcGVwYedGaMG3/rpc",
+      "requestBatchSize": 10,
+      "maxConcurrentRequests": 7,
+      "rps": 233,
+      "rpcSupportsDebug": false,
+      "enableBatchSizeGrowth": false,
+      "blocksPerBatch": 300
+    }
+  },
+  {
+    "chainName": "feature",
+    "blockchainId": "txbozTNfyRgJJxtHmsbpvwTTWTHU739z7pX7qKdhJVxHC2MAk",
+    "evmChainId": 33311,
+    "rpcConfig": {
+      "rpcUrl": "http://65.21.140.118/ext/bc/txbozTNfyRgJJxtHmsbpvwTTWTHU739z7pX7qKdhJVxHC2MAk/rpc",
+      "requestBatchSize": 10,
+      "maxConcurrentRequests": 7,
+      "rps": 233,
+      "rpcSupportsDebug": false,
+      "enableBatchSizeGrowth": false,
+      "blocksPerBatch": 300
+    }
+  },
+  {
+    "chainName": "Lamina1",
+    "blockchainId": "UhReZTXT8Cqsjat9ghRtCe5kBQPQexQB5zG5Fvf3egrdYfyoJ",
+    "evmChainId": 10849,
+    "rpcConfig": {
+      "rpcUrl": "https://subnets.avax.network/lamina1/mainnet/rpc",
+      "requestBatchSize": 10,
+      "maxConcurrentRequests": 8,
+      "rps": 2,
+      "rpcSupportsDebug": false,
+      "enableBatchSizeGrowth": true,
+      "blocksPerBatch": 300
+    }
+  },
+  {
+    "chainName": "InnovoMarketsMainnet",
+    "blockchainId": "vFHT9J4F6PhqCTMmqkKKUKW3yfsjd6tNvhmcK4MkFa3Pmnnqe",
+    "evmChainId": 10036,
+    "rpcConfig": {
+      "rpcUrl": "https://subnets.avax.network/innovo/mainnet/rpc",
+      "requestBatchSize": 10,
+      "maxConcurrentRequests": 8,
+      "rps": 2,
+      "rpcSupportsDebug": false,
+      "enableBatchSizeGrowth": true,
+      "blocksPerBatch": 300
+    }
+  },
+  {
+    "chainName": "Republic Chain",
+    "blockchainId": "WxE3tFpDTgw8VWKf3Yt5zW2Mv7mzipXG6Z2giKYXybcLxRAER",
+    "evmChainId": 14594,
+    "rpcConfig": {
+      "rpcUrl": "http://65.21.140.118/ext/bc/WxE3tFpDTgw8VWKf3Yt5zW2Mv7mzipXG6Z2giKYXybcLxRAER/rpc",
+      "requestBatchSize": 10,
+      "maxConcurrentRequests": 7,
+      "rps": 233,
+      "rpcSupportsDebug": false,
+      "enableBatchSizeGrowth": false,
+      "blocksPerBatch": 300
+    }
+  },
+  {
+    "chainName": "ApertumMainnet",
+    "blockchainId": "YDJ1r9RMkewATmA7B35q1bdV18aywzmdiXwd9zGBq3uQjsCnn",
+    "evmChainId": 2786,
+    "rpcConfig": {
+      "rpcUrl": "http://65.21.140.118/ext/bc/YDJ1r9RMkewATmA7B35q1bdV18aywzmdiXwd9zGBq3uQjsCnn/rpc",
+      "requestBatchSize": 10,
+      "maxConcurrentRequests": 7,
+      "rps": 233,
+      "rpcSupportsDebug": false,
+      "enableBatchSizeGrowth": false,
+      "blocksPerBatch": 300
+    }
+  },
+  {
+    "chainName": "CodeNekt",
+    "blockchainId": "ZG7cT4B1u3y7piZ9CzfejnTKnNAoehcifbJWUwBqgyD3RuEqK",
+    "evmChainId": 235235,
+    "rpcConfig": {
+      "rpcUrl": "https://rpc-codenekt-mainnet.cogitus.io/ext/bc/ZG7cT4B1u3y7piZ9CzfejnTKnNAoehcifbJWUwBqgyD3RuEqK/rpc",
+      "requestBatchSize": 10,
+      "maxConcurrentRequests": 100,
+      "rps": 20,
+      "rpcSupportsDebug": false,
+      "enableBatchSizeGrowth": true,
+      "blocksPerBatch": 300
+    }
+  }
+]

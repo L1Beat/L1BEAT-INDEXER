@@ -1,0 +1,46 @@
+services:
+  fetcher:
+    container_name: fetcher
+    restart: on-failure:100
+    image: ghcr.io/containerman17/frostbyte:latest
+    volumes:
+      - ~/plugins:/plugins
+      - ~/data:/data
+    environment:
+      - ROLES=fetcher
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "150m"
+        max-file: "5" 
+  api:
+    container_name: api
+    restart: on-failure:100
+    image: ghcr.io/containerman17/frostbyte:latest
+    volumes:
+      - ~/plugins:/plugins
+      - ~/data:/data
+    environment:
+      - PORT=80
+      - ROLES=api
+    ports:
+      - 80:80
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "150m"
+        max-file: "5" 
+  indexer:
+    container_name: indexer
+    restart: on-failure:100
+    image: ghcr.io/containerman17/frostbyte:latest
+    volumes:
+      - ~/plugins:/plugins
+      - ~/data:/data
+    environment:
+      - ROLES=indexer
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "150m"
+        max-file: "5" 

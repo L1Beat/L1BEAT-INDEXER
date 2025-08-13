@@ -1,0 +1,16 @@
+{
+  "name": "07_meganode",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "p-limit": "^6.2.0",
+    "p-throttle": "^7.0.0",
+    "viem": "^2.30.0",
+    "yaml": "^2.8.0"
+  }
+}

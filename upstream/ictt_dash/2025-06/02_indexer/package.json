@@ -1,0 +1,46 @@
+{
+  "name": "lean-explorer-core",
+  "version": "0.1.0",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "sideEffects": false,
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "watch": "tsc -w -p tsconfig.json",
+    "start": "tsx ./src/start.ts",
+    "dev": "NODE_ENV=development tsx watch ./src/start.ts",
+    "dev:no-delete": "tsx watch ./src/start.ts",
+    "prepublishOnly": "npm run build",
+    "docker:run": "docker buildx build -t lean-explorer-core --load . && docker run -it -v ${PWD}/database:/app/database -p 3000:3000 lean-explorer-core",
+    "docker:push": "docker buildx build --platform linux/amd64 -t containerman17/lean-explorer-core:latest --push ."
+  },
+  "dependencies": {
+    "@avalabs/avalanchejs": "^5.0.0",
+    "@hono/node-server": "^1.14.3",
+    "@hono/zod-openapi": "^0.19.7",
+    "@types/json-diff": "^1.0.3",
+    "@types/tough-cookie": "^4.0.5",
+    "better-sqlite3": "^11.10.0",
+    "dotenv": "^16.5.0",
+    "hono": "^4.7.10",
+    "json-diff": "^1.0.6",
+    "p-queue": "^8.1.0",
+    "tsx": "^4.20.3",
+    "typescript": "^5.8.3",
+    "undici": "^6.21.3",
+    "zstd-napi": "^0.0.11"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.13"
+  }
+}
