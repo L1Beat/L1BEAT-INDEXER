@@ -1,8 +1,0 @@
-.env
-*.txt
-compose.yml
-database/**
-
-node_modules/**
-*cache*.json
-*.csv

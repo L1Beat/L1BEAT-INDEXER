@@ -27,3 +27,5 @@ data/*
 prod_chains.json
 secretChains.json
 deploy.sh
+upstream/
+SYNC.md

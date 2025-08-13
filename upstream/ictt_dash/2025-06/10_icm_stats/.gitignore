@@ -1,6 +1,0 @@
-node_modules
-.env*
-data/*
-!data/chains.json
-__events.ts
-events.txt
