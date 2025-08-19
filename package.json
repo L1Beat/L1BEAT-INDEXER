@@ -2,7 +2,16 @@
   "name": "l1beat-indexer",
   "version": "1.0.0",
   "description": "High-performance blockchain indexer and analytics dashboard for monitoring Avalanche L1 cross-chain transfers and messaging",
-  "keywords": ["avalanche", "blockchain", "indexer", "analytics", "cross-chain", "teleporter", "ictt", "layerzero"],
+  "keywords": [
+    "avalanche",
+    "blockchain",
+    "indexer",
+    "analytics",
+    "cross-chain",
+    "teleporter",
+    "ictt",
+    "layerzero"
+  ],
   "license": "MIT",
   "author": "L1Beat Team",
   "repository": {
@@ -22,7 +31,7 @@
     "build:frontend": "cd frontend && npm run build"
   },
   "dependencies": {
-    "frostbyte-sdk": "file:./node_modules/frostbyte-sdk"
+    "frostbyte-sdk": "^1.0.6"
   },
   "devDependencies": {
     "@types/node": "^24.0.13",
