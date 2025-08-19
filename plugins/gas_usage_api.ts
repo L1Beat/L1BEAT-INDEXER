@@ -19,9 +19,7 @@ function getAvailableChains(dbCtx: any) {
     const chainConfigs = dbCtx.getAllChainConfigs();
     return {
         chainIds: chainConfigs.map((config: any) => config.evmChainId.toString()),
-        description: chainConfigs.map((config: any) => 
-            `${config.evmChainId} (${config.chainName || 'Unknown'})`
-        ).join(', ')
+        description: chainConfigs.map((config: any) => config.evmChainId.toString()).join(', ')
     };
 }
 

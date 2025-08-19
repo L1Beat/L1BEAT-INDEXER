@@ -25,7 +25,7 @@ const module: ApiPlugin = {
             const configs = dbCtx.getAllChainConfigs();
             return {
                 chainIds: configs.map(config => config.evmChainId.toString()),
-                chainDescriptions: configs.map((config: any) => `${config.evmChainId} - ${config.chainName}`).join(', ')
+                chainDescriptions: configs.map((config: any) => config.evmChainId.toString()).join(', ')
             };
         };
 

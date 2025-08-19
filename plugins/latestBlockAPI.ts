@@ -11,8 +11,8 @@ const module: ApiPlugin = {
             return {
                 chainIds: configs.map(config => config.evmChainId.toString()),
                 chainNames: configs.map(config => config.chainName),
-                chainDescriptions: configs.map(config => `${config.evmChainId} - ${config.chainName}`),
-                chainOptionsWithNames: configs.map(config => `${config.evmChainId} (${config.chainName})`)
+                chainDescriptions: configs.map(config => config.evmChainId.toString()).join(', '),
+                chainOptionsWithNames: configs.map(config => config.evmChainId.toString())
             };
         };
 

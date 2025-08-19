@@ -20,12 +20,8 @@ function getAvailableChains(dbCtx: any) {
     const chainConfigs = dbCtx.getAllChainConfigs();
     return {
         chainIds: chainConfigs.map((config: any) => config.evmChainId.toString()),
-        chainOptionsWithNames: chainConfigs.map((config: any) => 
-            `${config.evmChainId} (${config.chainName || 'Unknown'})`
-        ),
-        description: chainConfigs.map((config: any) => 
-            `${config.evmChainId} (${config.chainName || 'Unknown'})`
-        ).join(', ')
+        chainOptionsWithNames: chainConfigs.map((config: any) => config.evmChainId.toString()),
+        description: chainConfigs.map((config: any) => config.evmChainId.toString()).join(', ')
     };
 }
 
