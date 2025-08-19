@@ -102,7 +102,7 @@ export type GetApiByEvmChainIdStatsActiveAddressesPeriodData = {
     body?: never;
     path: {
         /**
-         * EVM Chain ID. Available chains: 779672 (Dispatch), 16180 (PLYRPHI), 173750 (Echo L1 Testnet), 8021 (NUMINEMainnet), 379 (KOROSHIL), 741741 (GOODCARE)
+         * EVM Chain ID. Available chains: 779672, 16180, 173750, 8021, 379, 741741
          */
         evmChainId: '779672' | '16180' | '173750' | '8021' | '379' | '741741';
     };
@@ -156,7 +156,7 @@ export type GetApiByEvmChainIdStatsDailyActiveAddressesData = {
     body?: never;
     path: {
         /**
-         * EVM Chain ID. Available chains: 779672 (Dispatch), 16180 (PLYRPHI), 173750 (Echo L1 Testnet), 8021 (NUMINEMainnet), 379 (KOROSHIL), 741741 (GOODCARE)
+         * EVM Chain ID. Available chains: 779672, 16180, 173750, 8021, 379, 741741
          */
         evmChainId: '779672' | '16180' | '173750' | '8021' | '379' | '741741';
     };
@@ -206,7 +206,7 @@ export type GetApiByEvmChainIdStatsGasUsagePeriodData = {
     body?: never;
     path: {
         /**
-         * EVM Chain ID. Available chains: 779672 (Dispatch), 16180 (PLYRPHI), 173750 (Echo L1 Testnet), 8021 (NUMINEMainnet), 379 (KOROSHIL), 741741 (GOODCARE)
+         * EVM Chain ID. Available chains: 779672, 16180, 173750, 8021, 379, 741741
          */
         evmChainId: '779672' | '16180' | '173750' | '8021' | '379' | '741741';
     };
@@ -256,7 +256,7 @@ export type GetApiByEvmChainIdStatsCumulativeGasData = {
     body?: never;
     path: {
         /**
-         * EVM Chain ID. Available chains: 779672 (Dispatch), 16180 (PLYRPHI), 173750 (Echo L1 Testnet), 8021 (NUMINEMainnet), 379 (KOROSHIL), 741741 (GOODCARE)
+         * EVM Chain ID. Available chains: 779672, 16180, 173750, 8021, 379, 741741
          */
         evmChainId: '779672' | '16180' | '173750' | '8021' | '379' | '741741';
     };
@@ -302,7 +302,7 @@ export type GetApiByEvmChainIdStatsDailyGasData = {
     body?: never;
     path: {
         /**
-         * EVM Chain ID. Available chains: 779672 (Dispatch), 16180 (PLYRPHI), 173750 (Echo L1 Testnet), 8021 (NUMINEMainnet), 379 (KOROSHIL), 741741 (GOODCARE)
+         * EVM Chain ID. Available chains: 779672, 16180, 173750, 8021, 379, 741741
          */
         evmChainId: '779672' | '16180' | '173750' | '8021' | '379' | '741741';
     };
@@ -477,7 +477,7 @@ export type GetApiByEvmChainIdBlocksLatestData = {
         /**
          * Select chain from the dropdown. The API will use the chain ID (numbers before parentheses)
          */
-        evmChainId: '779672 (Dispatch)' | '16180 (PLYRPHI)' | '173750 (Echo L1 Testnet)' | '8021 (NUMINEMainnet)' | '379 (KOROSHIL)' | '741741 (GOODCARE)';
+        evmChainId: '779672' | '16180' | '173750' | '8021' | '379' | '741741';
     };
     query?: {
         /**
@@ -744,7 +744,7 @@ export type GetApiByEvmChainIdBlocksLatestByCountData = {
         /**
          * Select chain from the dropdown. The API will use the chain ID (numbers before parentheses)
          */
-        evmChainId: '779672 (Dispatch)' | '16180 (PLYRPHI)' | '173750 (Echo L1 Testnet)' | '8021 (NUMINEMainnet)' | '379 (KOROSHIL)' | '741741 (GOODCARE)';
+        evmChainId: '779672' | '16180' | '173750' | '8021' | '379' | '741741';
         /**
          * Number of latest blocks to retrieve (1-10)
          */
@@ -1010,11 +1010,227 @@ export type GetApiGlobalMessagingChainPairsResponses = {
 
 export type GetApiGlobalMessagingChainPairsResponse = GetApiGlobalMessagingChainPairsResponses[keyof GetApiGlobalMessagingChainPairsResponses];
 
+export type GetApiGlobalOverviewLastWeekTxsData = {
+    body?: never;
+    path?: never;
+    query?: never;
+    url: '/api/global/overview/lastWeekTxs';
+};
+
+export type GetApiGlobalOverviewLastWeekTxsResponses = {
+    /**
+     * Default Response
+     */
+    200: {
+        /**
+         * Total transactions across all chains in the last week
+         */
+        totalTxs: number;
+    };
+};
+
+export type GetApiGlobalOverviewLastWeekTxsResponse = GetApiGlobalOverviewLastWeekTxsResponses[keyof GetApiGlobalOverviewLastWeekTxsResponses];
+
+export type GetApiGlobalOverviewMaxTpsObservedData = {
+    body?: never;
+    path?: never;
+    query?: never;
+    url: '/api/global/overview/maxTpsObserved';
+};
+
+export type GetApiGlobalOverviewMaxTpsObservedResponses = {
+    /**
+     * Default Response
+     */
+    200: {
+        /**
+         * Maximum TPS observed (transactions per second)
+         */
+        maxTps: number;
+        /**
+         * Unix timestamp when max TPS occurred
+         */
+        timestamp: number;
+        /**
+         * Total transactions in that peak minute
+         */
+        totalTxsInMinute: number;
+    };
+};
+
+export type GetApiGlobalOverviewMaxTpsObservedResponse = GetApiGlobalOverviewMaxTpsObservedResponses[keyof GetApiGlobalOverviewMaxTpsObservedResponses];
+
+export type GetApiGlobalOverviewLastWeekActiveAddressesData = {
+    body?: never;
+    path?: never;
+    query?: never;
+    url: '/api/global/overview/lastWeekActiveAddresses';
+};
+
+export type GetApiGlobalOverviewLastWeekActiveAddressesResponses = {
+    /**
+     * Default Response
+     */
+    200: {
+        /**
+         * Total unique addresses active across all chains in the last week
+         */
+        uniqueAddresses: number;
+    };
+};
+
+export type GetApiGlobalOverviewLastWeekActiveAddressesResponse = GetApiGlobalOverviewLastWeekActiveAddressesResponses[keyof GetApiGlobalOverviewLastWeekActiveAddressesResponses];
+
+export type GetApiGlobalOverviewDailyTxsByChainData = {
+    body?: never;
+    path?: never;
+    query?: never;
+    url: '/api/global/overview/dailyTxsByChain';
+};
+
+export type GetApiGlobalOverviewDailyTxsByChainResponses = {
+    /**
+     * Default Response
+     */
+    200: {
+        data: Array<{
+            [key: string]: unknown;
+        }>;
+        chains: Array<{
+            evmChainId: number;
+            name: string;
+        }>;
+    };
+};
+
+export type GetApiGlobalOverviewDailyTxsByChainResponse = GetApiGlobalOverviewDailyTxsByChainResponses[keyof GetApiGlobalOverviewDailyTxsByChainResponses];
+
+export type GetApiGlobalOverviewDailyTxsByChainCompactData = {
+    body?: never;
+    path?: never;
+    query?: never;
+    url: '/api/global/overview/dailyTxsByChainCompact';
+};
+
+export type GetApiGlobalOverviewDailyTxsByChainCompactResponses = {
+    /**
+     * Default Response
+     */
+    200: {
+        /**
+         * Array of dates in YYYY-MM-DD format
+         */
+        dates: Array<string>;
+        chains: Array<{
+            evmChainId: number;
+            name: string;
+            /**
+             * Daily transaction counts corresponding to dates array
+             */
+            values: Array<number>;
+        }>;
+    };
+};
+
+export type GetApiGlobalOverviewDailyTxsByChainCompactResponse = GetApiGlobalOverviewDailyTxsByChainCompactResponses[keyof GetApiGlobalOverviewDailyTxsByChainCompactResponses];
+
+export type GetApiGlobalOverviewMonthlyTxsByChainCompactData = {
+    body?: never;
+    path?: never;
+    query?: never;
+    url: '/api/global/overview/monthlyTxsByChainCompact';
+};
+
+export type GetApiGlobalOverviewMonthlyTxsByChainCompactResponses = {
+    /**
+     * Default Response
+     */
+    200: {
+        /**
+         * Array of months in YYYY-MM format
+         */
+        dates: Array<string>;
+        chains: Array<{
+            evmChainId: number;
+            name: string;
+            /**
+             * Monthly transaction counts corresponding to dates array
+             */
+            values: Array<number>;
+        }>;
+    };
+};
+
+export type GetApiGlobalOverviewMonthlyTxsByChainCompactResponse = GetApiGlobalOverviewMonthlyTxsByChainCompactResponses[keyof GetApiGlobalOverviewMonthlyTxsByChainCompactResponses];
+
+export type GetApiGlobalOverviewMonthlyIcttOperationsByChainCompactData = {
+    body?: never;
+    path?: never;
+    query?: never;
+    url: '/api/global/overview/monthlyICTTOperationsByChainCompact';
+};
+
+export type GetApiGlobalOverviewMonthlyIcttOperationsByChainCompactResponses = {
+    /**
+     * Default Response
+     */
+    200: {
+        /**
+         * Array of months in YYYY-MM format
+         */
+        dates: Array<string>;
+        chains: Array<{
+            evmChainId: number;
+            name: string;
+            /**
+             * Monthly ICTT operation counts (inbound + outbound)
+             */
+            values: Array<number>;
+        }>;
+    };
+};
+
+export type GetApiGlobalOverviewMonthlyIcttOperationsByChainCompactResponse = GetApiGlobalOverviewMonthlyIcttOperationsByChainCompactResponses[keyof GetApiGlobalOverviewMonthlyIcttOperationsByChainCompactResponses];
+
+export type GetApiGlobalOverviewMonthlyIcmByDirectionByChainCompactData = {
+    body?: never;
+    path: {
+        /**
+         * Message direction: incoming (received) or outgoing (sent)
+         */
+        direction: 'incoming' | 'outgoing';
+    };
+    query?: never;
+    url: '/api/global/overview/monthlyICM/{direction}/byChainCompact';
+};
+
+export type GetApiGlobalOverviewMonthlyIcmByDirectionByChainCompactResponses = {
+    /**
+     * Default Response
+     */
+    200: {
+        /**
+         * Array of months in YYYY-MM format
+         */
+        dates: Array<string>;
+        chains: Array<{
+            evmChainId: number;
+            name: string;
+            /**
+             * Monthly ICM message counts for specified direction
+             */
+            values: Array<number>;
+        }>;
+    };
+};
+
+export type GetApiGlobalOverviewMonthlyIcmByDirectionByChainCompactResponse = GetApiGlobalOverviewMonthlyIcmByDirectionByChainCompactResponses[keyof GetApiGlobalOverviewMonthlyIcmByDirectionByChainCompactResponses];
+
 export type GetApiByEvmChainIdStatsTpsData = {
     body?: never;
     path: {
         /**
-         * EVM Chain ID. Available chains: 779672 - Dispatch, 16180 - PLYRPHI, 173750 - Echo L1 Testnet, 8021 - NUMINEMainnet, 379 - KOROSHIL, 741741 - GOODCARE
+         * EVM Chain ID. Available chains: 779672, 16180, 173750, 8021, 379, 741741
          */
         evmChainId: '779672' | '16180' | '173750' | '8021' | '379' | '741741';
     };
@@ -1052,7 +1268,7 @@ export type GetApiByEvmChainIdStatsCumulativeTxsData = {
     body?: never;
     path: {
         /**
-         * EVM Chain ID. Available chains: 779672 - Dispatch, 16180 - PLYRPHI, 173750 - Echo L1 Testnet, 8021 - NUMINEMainnet, 379 - KOROSHIL, 741741 - GOODCARE
+         * EVM Chain ID. Available chains: 779672, 16180, 173750, 8021, 379, 741741
          */
         evmChainId: '779672' | '16180' | '173750' | '8021' | '379' | '741741';
     };
@@ -1116,7 +1332,7 @@ export type GetApiByEvmChainIdMetricsDailyMessageVolumeData = {
         /**
          * Select chain from the dropdown. The API will use the chain ID (numbers before parentheses)
          */
-        evmChainId: '779672 (Dispatch)' | '16180 (PLYRPHI)' | '173750 (Echo L1 Testnet)' | '8021 (NUMINEMainnet)' | '379 (KOROSHIL)' | '741741 (GOODCARE)';
+        evmChainId: '779672' | '16180' | '173750' | '8021' | '379' | '741741';
     };
     query?: {
         days?: number;
@@ -1198,7 +1414,7 @@ export type GetApiByEvmChainIdStatsIcmMessagesTotalData = {
     body?: never;
     path: {
         /**
-         * EVM Chain ID. Available chains: 779672 (Dispatch), 16180 (PLYRPHI), 173750 (Echo L1 Testnet), 8021 (NUMINEMainnet), 379 (KOROSHIL), 741741 (GOODCARE)
+         * EVM Chain ID. Available chains: 779672, 16180, 173750, 8021, 379, 741741
          */
         evmChainId: '779672' | '16180' | '173750' | '8021' | '379' | '741741';
     };

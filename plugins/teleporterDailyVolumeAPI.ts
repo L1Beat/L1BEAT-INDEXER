@@ -23,7 +23,7 @@ const module: ApiPlugin = {
         const getAvailableChains = () => {
             const configs = dbCtx.getAllChainConfigs();
             return {
-                chainOptionsWithNames: configs.map(config => config.evmChainId.toString()).join(', ')
+                chainOptionsWithNames: configs.map(config => config.evmChainId.toString())
             };
         };
 
